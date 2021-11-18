@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c0857a7-c191-4b3f-8a55-be7901a28657">
+  <producedTypes>
+    <objectType typeId="b3ce8cae-3ec7-4280-b9c4-8bbe64bf72be" valueTypeId="263a6eea-2d80-45c8-8e1c-ce569b30749f"/>
+    <refType typeId="9d15b3d8-ea6b-483a-b301-bd5754390ea5" valueTypeId="891ae2a5-7e03-4083-bc37-3715eb7e68e0"/>
+    <selectionType typeId="1178de64-ce05-44a9-bdf6-c262eb1f64e6" valueTypeId="efce8606-8e39-48d1-ba8a-a9e76099fcc7"/>
+    <listType typeId="5d4b9f6e-8717-4d00-bb6f-6e7cb92b4133" valueTypeId="75b6dfb8-13a4-4fa8-81c1-1d5eef7891cb"/>
+    <managerType typeId="2b2405a8-604d-4afe-b068-e213b649efe5" valueTypeId="2731d404-df28-442a-bf46-efde7d5d4f9c"/>
+  </producedTypes>
+  <name>ВидыЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды цен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыЦен.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыЦен.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид цены</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды цен</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="cee319be-d126-4ebf-a134-49c19674b8d7">
+      <name>ЦенаЗаРаботу</name>
+      <description>Цена за работу</description>
+      <code xsi:type="core:StringValue">
+        <value>ЦенаРабот</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыЦен.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="d36e6489-8a61-480d-b5d3-223c35667205">
+    <name>ТипЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип цен</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыЦен</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="801f4589-7a34-4407-aead-94236182f6d1">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

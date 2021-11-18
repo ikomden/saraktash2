@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3dce14a0-7d03-43a1-8460-88b8edfdefc9">
+  <producedTypes>
+    <managerType typeId="2ac795f3-5112-4851-b46c-d4271125498a" valueTypeId="f5851815-ecee-4729-9238-0a703237281e"/>
+    <valueManagerType typeId="c27feee6-8190-415b-91b2-5304ff06777b" valueTypeId="314f4e2f-73d6-4fc4-b5a4-86d6927fc587"/>
+    <valueKeyType typeId="8e07203c-1eb2-51b2-9946-88ba4c9d569a" valueTypeId="cd578b93-3b33-5fb0-bd9b-c9909a743f9d"/>
+  </producedTypes>
+  <name>Наклейка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наклейка</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

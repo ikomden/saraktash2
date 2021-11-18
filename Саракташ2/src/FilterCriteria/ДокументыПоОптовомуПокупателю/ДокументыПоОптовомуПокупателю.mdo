@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6979f6ae-3d50-4959-b1c5-930e518a87ca">
+  <producedTypes>
+    <listType typeId="2fdf9bbe-099f-4891-b720-79f471ef08a5" valueTypeId="593cccb1-4912-4eb8-b0ee-dd6e2d49ce3d"/>
+    <managerType typeId="2d8eb4b7-d435-4bf3-a4f7-4b14bea8271a" valueTypeId="76de2664-040f-432c-b4f0-0ef82dffea98"/>
+  </producedTypes>
+  <name>ДокументыПоОптовомуПокупателю</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы по оптовому покупателю</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Контрагенты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.ЗаказПокупателя.Attribute.Контрагент</content>
+  <content>Document.ВозвратТоваровОтПокупателя.Attribute.Контрагент</content>
+  <content>Document.ПриходныйКассовыйОрдер.Attribute.Контрагент</content>
+  <content>Document.РасходныйКассовыйОрдер.Attribute.Контрагент</content>
+  <content>Document.ПоступлениеНаРасчетныйСчет.Attribute.Контрагент</content>
+  <content>Document.СписаниеСРасчетногоСчета.Attribute.Контрагент</content>
+</mdclass:FilterCriterion>

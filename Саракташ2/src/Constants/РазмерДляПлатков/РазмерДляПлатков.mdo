@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0f14f45-135b-4db9-ad85-d82e754e1fd3">
+  <producedTypes>
+    <managerType typeId="2bf00745-3aac-41a8-a093-12f288a502b3" valueTypeId="18275dd5-c60c-4ed5-8589-fdf9ab5973eb"/>
+    <valueManagerType typeId="4a311458-9e36-4dac-865a-ca2d32796445" valueTypeId="1d5d67ac-512a-4d5a-a4bb-af60e75736b6"/>
+    <valueKeyType typeId="3fbaa968-3a96-40a6-9528-3447894c8cd6" valueTypeId="8a1af550-2bcb-477d-b7a2-1f3d88859e6f"/>
+  </producedTypes>
+  <name>РазмерДляПлатков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер для платков</value>
+  </synonym>
+  <type>
+    <types>ChartOfCharacteristicTypesRef.ДополнительныеРеквизиты</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

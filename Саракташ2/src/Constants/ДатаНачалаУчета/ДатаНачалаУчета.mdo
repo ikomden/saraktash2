@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54e34c30-224a-49c2-9e35-3200056d3753">
+  <producedTypes>
+    <managerType typeId="0be7da4f-f8d3-47d6-906f-f83f31476c4d" valueTypeId="d08274d7-cb30-4a01-a452-4814e65915c7"/>
+    <valueManagerType typeId="9b6cca59-67b3-4934-8eea-89620b259f30" valueTypeId="aa843b13-bd2b-4199-aff5-efcb00de6629"/>
+    <valueKeyType typeId="22b2dc97-e840-591b-af95-08236257b76a" valueTypeId="9bc2dbcb-7f70-55eb-a034-4cf7bb14d006"/>
+  </producedTypes>
+  <name>ДатаНачалаУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дата начала учета</value>
+  </synonym>
+  <comment>После этой даты документы влияют на состояние учета</comment>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0521c8a1-2ed3-4d14-8bce-a3430bab4622">
+  <producedTypes>
+    <objectType typeId="a98ef22c-692f-487c-854f-e3cd3b4934d4" valueTypeId="63d7e4ed-84d2-4745-9951-c971b1233b95"/>
+    <managerType typeId="76d75456-25c5-4e6d-b0a2-882c02e9c140" valueTypeId="191c521e-aae4-4ec8-96be-647e334a8bf2"/>
+  </producedTypes>
+  <name>ОтчетПоВозвратамПоАртикулам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возвраты по артикулам</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ОтчетПоВозвратамПоАртикулам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="77e8602e-44e9-4041-b581-5ad6dfaabb16">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="30179793-3b0a-425e-a1f5-a280809353a6">
+    <name>ВозвратыПоАртикуламРозничные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возвраты по артикулам (розничные)</value>
+    </synonym>
+    <group>ActionsPanelReports</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="ccbb9c23-a5a8-4f36-a7ce-8ea8324b42cc">
+    <name>ВозвратыПоАртикуламОптовые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возвраты по артикулам (оптовые)</value>
+    </synonym>
+    <group>ActionsPanelReports</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

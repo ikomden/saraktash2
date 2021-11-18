@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51184970-f031-4316-94ea-f78e59e40d2b">
+  <producedTypes>
+    <objectType typeId="9fee1575-297e-4b76-9132-c22c811eefaa" valueTypeId="20985c02-ea74-488d-a013-dea19effa950"/>
+    <managerType typeId="08a3da23-6921-47e1-bb06-b0d7331ed8ad" valueTypeId="aac2737b-9efe-4dc1-8c8a-ac88161cb47b"/>
+  </producedTypes>
+  <name>ПерераспределениеИзделий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перераспределение изделий</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПерераспределениеИзделий.Form.Форма</defaultForm>
+  <forms uuid="d156a622-622f-42f8-8889-da41a5062647">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

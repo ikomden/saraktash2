@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fff56ba6-d9d8-433b-aeee-c4cde359f1d4">
+  <name>ПодключаемоеОборудованиеСканерШтрихкода16</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сканер штрихкода (16х16)</value>
+  </synonym>
+</mdclass:CommonPicture>

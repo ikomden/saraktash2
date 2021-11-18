@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Catalog.Бирки.Command.ДобавитьБирок</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <subsystemsOrder>
+    <subsystems>f73d44f2-41c7-4f39-aa9f-02ccef4ac09c</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

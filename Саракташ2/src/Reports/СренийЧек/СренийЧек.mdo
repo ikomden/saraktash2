@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="368a8b5a-b5f3-4b00-8f3a-9c64e9b238cf">
+  <producedTypes>
+    <objectType typeId="a4b9e77c-2dfe-463a-9384-5bcf43add1a5" valueTypeId="264acbf3-447c-4ea1-bb02-472cb8ca11cd"/>
+    <managerType typeId="29dc15e8-e866-4053-8758-f1700902aa3b" valueTypeId="9518a9b8-2b09-41e4-95d8-ed516b78e13d"/>
+  </producedTypes>
+  <name>СренийЧек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Срений чек</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.СренийЧек.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="18f4a21b-1653-4e8f-9bfe-f27b200f2e3d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

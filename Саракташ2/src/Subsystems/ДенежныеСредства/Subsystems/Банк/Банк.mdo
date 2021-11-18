@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="09559d85-6c19-4eea-acc8-e44bfd9a645e">
+  <name>Банк</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банк</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.БанковскиеСчета</content>
+  <content>Document.СписаниеСРасчетногоСчета</content>
+  <content>Document.ПоступлениеНаРасчетныйСчет</content>
+  <content>Catalog.КлассификаторБанковРФ</content>
+  <parentSubsystem>Subsystem.ДенежныеСредства</parentSubsystem>
+</mdclass:Subsystem>

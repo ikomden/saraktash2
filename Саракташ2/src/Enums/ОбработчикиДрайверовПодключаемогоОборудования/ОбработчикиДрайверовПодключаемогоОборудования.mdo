@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e2a3d11-fa33-4f4a-813c-6375604232a8">
+  <producedTypes>
+    <refType typeId="4eeafa9a-c2fb-4691-bd44-5df1cd300eb0" valueTypeId="916b4e22-68af-482c-9ab8-c351fbea267e"/>
+    <listType typeId="a915f0d2-7066-44d8-8a46-90f5a55988af" valueTypeId="00197a8b-d9ba-4261-968d-a73ae9e0eb54"/>
+    <managerType typeId="8d02b8f9-37c7-4620-9a87-608e6bf13935" valueTypeId="9e859d9f-fada-42cd-9321-9752088ae7f1"/>
+  </producedTypes>
+  <name>ОбработчикиДрайверовПодключаемогоОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчики драйверов подключаемого оборудования</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7b383c21-ea5c-4536-a8aa-6c08f7ebf275">
+    <name>Обработчик1СWebСервисОборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Web-сервис оборудование</value>
+    </synonym>
+    <comment>WebСервисОборудование</comment>
+  </enumValues>
+  <enumValues uuid="3a9d7e7e-e72d-4907-b43c-62241602e265">
+    <name>Обработчик1СДисплейПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Дисплей покупателя</value>
+    </synonym>
+    <comment>ДисплейПокупателя</comment>
+  </enumValues>
+  <enumValues uuid="0145aea6-c649-495c-84a9-b2188cf31df6">
+    <name>Обработчик1СККМOffline</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Офлайн оборудование</value>
+    </synonym>
+    <comment>ККМОфлайн</comment>
+  </enumValues>
+  <enumValues uuid="2f984ff8-9f37-44dc-9e2b-db4947c9b22e">
+    <name>Обработчик1СПринтерЧеков</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Принтер чеков</value>
+    </synonym>
+    <comment>ПринтерЧеков</comment>
+  </enumValues>
+  <enumValues uuid="384d358f-91d3-4a45-81e1-fa2646d358a7">
+    <name>Обработчик1СРарусДисплеиПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С-Рарус:Дисплеи покупателя</value>
+    </synonym>
+    <comment>ДисплейПокупателя</comment>
+  </enumValues>
+  <enumValues uuid="24712fac-5035-43f2-b3b5-df874d986cde">
+    <name>Обработчик1СРарусФискальныеРегистраторыМебиус</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С-Рарус:Фискальные регистраторы Мебиус</value>
+    </synonym>
+    <comment>ФискальныйРегистратор</comment>
+  </enumValues>
+  <enumValues uuid="c29d72b6-f098-4515-8501-ebabac033f1e">
+    <name>Обработчик1СРарусФискальныеРегистраторыФеликс</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С-Рарус:Фискальные регистраторы Феликс</value>
+    </synonym>
+    <comment>ФискальныйРегистратор</comment>
+  </enumValues>
+  <enumValues uuid="c5b12be8-ee1a-4c5a-84f3-06e6a6a59fa2">
+    <name>Обработчик1ССканерыШтрихкода</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Сканеры штрихкода (COM)</value>
+    </synonym>
+    <comment>СканерШтрихкода</comment>
+  </enumValues>
+  <enumValues uuid="2ce6270d-664f-4cf8-ae50-944bd4f7fa90">
+    <name>Обработчик1ССканерыШтрихкодаNative</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Сканеры штрихкода (NativeApi)</value>
+    </synonym>
+    <comment>СканерШтрихкода</comment>
+  </enumValues>
+  <enumValues uuid="a4a9cb2c-ee4a-4cd9-9d6d-9ed521deacff">
+    <name>Обработчик1ССчитывателиМагнитныхКарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Считыватели магнитных карт (COM)</value>
+    </synonym>
+    <comment>СчитывательМагнитныхКарт</comment>
+  </enumValues>
+  <enumValues uuid="cc177c17-2fe1-49e5-895d-9d0e883c113c">
+    <name>Обработчик1ССчитывателиМагнитныхКартNative</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Считыватели магнитных карт (NativeApi)</value>
+    </synonym>
+    <comment>СчитывательМагнитныхКарт</comment>
+  </enumValues>
+  <enumValues uuid="1dc396f7-0a2d-44fe-800c-57dc80938d8b">
+    <name>Обработчик1СФискальныйРегистраторЭмулятор</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Фискальный регистратор (эмулятор)</value>
+    </synonym>
+    <comment>ФискальныйРегистратор</comment>
+  </enumValues>
+  <enumValues uuid="cc0a80a2-847b-4417-b248-791f2f553d71">
+    <name>Обработчик1СЭвоторККМOffline</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Эвотор Офлайн</value>
+    </synonym>
+    <comment>ККМОфлайн</comment>
+  </enumValues>
+  <enumValues uuid="67109d6e-24ae-421e-94e1-b9d1121c7448">
+    <name>Обработчик1СЭквайринговыеТерминалыСбербанк</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С:Эквайринговые терминалы Сбербанк</value>
+    </synonym>
+    <comment>ЭквайринговыйТерминал</comment>
+  </enumValues>
+  <enumValues uuid="1810d9df-df2e-41bc-9b55-11381291814a">
+    <name>ОбработчикACOMВесыСПечатьюЭтикеток</name>
+    <synonym>
+      <key>ru</key>
+      <value>ACOM:Весы с печатью этикеток</value>
+    </synonym>
+    <comment>ВесыСПечатьюЭтикеток</comment>
+  </enumValues>
+  <enumValues uuid="12588d37-1d8e-42e5-b1ef-b36208046b75">
+    <name>ОбработчикARCUS2ЭквайринговыеТерминалыIngenico</name>
+    <synonym>
+      <key>ru</key>
+      <value>ARCUS2:Эквайринговые терминалы Ingenico</value>
+    </synonym>
+    <comment>ЭквайринговыйТерминал</comment>
+  </enumValues>
+  <enumValues uuid="922db6e9-5b23-447f-a4cb-97e0af44a9b6">
+    <name>ОбработчикARSККТ54ФЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ars:ККТ с передачей данных в ОФД (54-ФЗ)</value>
+    </synonym>
+    <comment>ККТ</comment>
+  </enumValues>
+  <enumValues uuid="77bc105f-df7e-4f49-a821-c636641f7290">
+    <name>ОбработчикCASВесыСПечатьюЭтикеток</name>
+    <synonym>
+      <key>ru</key>
+      <value>CAS:Весы с печатью этикеток</value>
+    </synonym>
+    <comment>ВесыСПечатьюЭтикеток</comment>
+  </enumValues>
+  <enumValues uuid="5cdf5403-4dde-4b2d-b3e4-39ad337da252">
+    <name>ОбработчикCASЭлектронныеВесы</name>
+    <synonym>
+      <key>ru</key>
+      <value>CAS:Электронные весы</value>
+    </synonym>
+    <comment>ЭлектронныеВесы</comment>
+  </enumValues>
+  <enumValues uuid="2b240dbd-8b60-4ae1-af2d-8bfdf050d0c9">
+    <name>ОбработчикERFIDСчитывательRFID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ERFID:Считыватель RFID</value>
+    </synonym>
+    <comment>СчитывательRFID</comment>
+  </enumValues>
+  <enumValues uuid="5855c2b8-1534-484c-9df1-359e4bbd7568">
+    <name>ОбработчикIboxProПоддержкаMPosЭквайринга</name>
+    <synonym>
+      <key>ru</key>
+      <value>iboxPro:Поддержка mPos эквайринга</value>
+    </synonym>
+    <comment>ЭквайринговыйТерминал</comment>
+  </enumValues>
+  <enumValues uuid="bf95eb90-370c-4001-9aeb-afaa59568298">
+    <name>ОбработчикIronLogicСчитывателиБесконтактныхКарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>IronLogic:Считыватели бесконтактных карт Z-2</value>
+    </synonym>
+    <comment>СчитывательМагнитныхКарт</comment>
+  </enumValues>
+  <enumValues uuid="972dec23-aef9-45cc-bf1b-59938381936b">
+    <name>ОбработчикISBCСчитывательRFID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ISBC:Считыватель RFID</value>
+    </synonym>
+    <comment>СчитывательRFID</comment>
+  </enumValues>
+  <enumValues uuid="6cea32c3-ef29-47c9-b4bb-f1e04555daaa">
+    <name>ОбработчикMPos2canЭквайринг</name>
+    <synonym>
+      <key>ru</key>
+      <value>mPos2can:Поддержка 2can эквайринга</value>
+    </synonym>
+    <comment>ЭквайринговыйТерминал</comment>
+  </enumValues>
+  <enumValues uuid="c0366fd3-5d6c-4d20-bc5e-bde081de9927">
+    <name>ОбработчикMSTARККТ54ФЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>MSTAR:ККТ с передачей данных в ОФД (54-ФЗ)</value>
+    </synonym>
+    <comment>ККТ</comment>
+  </enumValues>
+  <enumValues uuid="dea01151-6213-4e25-a4ed-493638f3c6f5">
+    <name>ОбработчикNEWTONККТ54ФЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>NEWTON:ККТ с передачей данных в ОФД (54-ФЗ)</value>
+    </synonym>
+    <comment>ККТ</comment>
+  </enumValues>
+  <enumValues uuid="f0b4ff09-139a-4083-9207-3b8f7b678331">
+    <name>ОбработчикPOSUAДисплеиПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>POSUA:Дисплеи покупателя</value>
+    </synonym>
+    <comment>ДисплейПокупателя</comment>
+  </enumValues>
+  <enumValues uuid="84d248f1-a194-4ad1-82b1-a61d452b7b19">
+    <name>ОбработчикRightScanТерминалыСбораДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>RightScan:Терминалы сбора данных (ПО RS:Mobile ACS)</value>
+    </synonym>
+    <comment>ТерминалСбораДанных</comment>
+  </enumValues>
+  <enumValues uuid="fcffe9f5-de23-41e2-8461-cd72b9f0ebb8">
+    <name>ОбработчикSKAM1CЭквайринговыеСистемы</name>
+    <synonym>
+      <key>ru</key>
+      <value>SKAM-1C: Эквайринговые системы</value>
+    </synonym>
+    <comment>ЭквайринговыйТерминал</comment>
+  </enumValues>
+  <enumValues uuid="7a470ab4-ac64-46e8-998a-bf317bfdab54">
+    <name>ОбработчикTRPOSЭквайринговыеТерминалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>TRPOS:Эквайринговые терминалы</value>
+    </synonym>
+    <comment>ЭквайринговыйТерминал</comment>
+  </enumValues>
+  <enumValues uuid="db0f1983-97ba-475e-9dc1-1d4c893e1d0d">
+    <name>ОбработчикUCSEFTPOSЭквайринговыеТерминалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>UCS-EFTPOS:Эквайринговые терминалы</value>
+    </synonym>
+    <comment>ЭквайринговыйТерминал</comment>
+  </enumValues>
+  <enumValues uuid="fdc0ee76-0ab3-4305-9bca-2cd925435fde">
+    <name>ОбработчикАТОЛВесыСПечатьюЭтикеток8X</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:Весы c печатью этикеток 8.X</value>
+    </synonym>
+    <comment>ВесыСПечатьюЭтикеток</comment>
+  </enumValues>
+  <enumValues uuid="2cd3730f-41fd-4ac2-a0ce-399e5045d0a2">
+    <name>ОбработчикАтолДисплеиПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:Дисплеи покупателя</value>
+    </synonym>
+    <comment>ДисплейПокупателя</comment>
+  </enumValues>
+  <enumValues uuid="e24f6f7e-7115-4cdb-b37f-0508bd0a6895">
+    <name>ОбработчикАтолДисплеиПокупателя8X</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:Дисплеи покупателя 8.Х</value>
+    </synonym>
+    <comment>ДисплейПокупателя</comment>
+  </enumValues>
+  <enumValues uuid="feccb1f4-d378-49d9-b45b-82077ae74e79">
+    <name>ОбработчикАтолККМOffline</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:ККМ Офлайн</value>
+    </synonym>
+    <comment>ККМОфлайн</comment>
+  </enumValues>
+  <enumValues uuid="0f576b76-cdde-4912-b46e-cbb13f1fd1cb">
+    <name>ОбработчикАтолККТ54ФЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:ККТ с передачей данных в ОФД (54-ФЗ)</value>
+    </synonym>
+    <comment>ККТ</comment>
+  </enumValues>
+  <enumValues uuid="b8757540-561b-435e-9caa-56aa449db6ce">
+    <name>ОбработчикАтолККТ54ФЗ9X</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:ККТ с передачей данных в ОФД (54-ФЗ) 9.Х</value>
+    </synonym>
+    <comment>ККТ</comment>
+  </enumValues>
+  <enumValues uuid="b13cf670-9f3e-4944-a33e-46e53dd2a505">
+    <name>ОбработчикАтолСканерыШтрихкода</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:Сканеры штрихкода</value>
+    </synonym>
+    <comment>СканерШтрихкода</comment>
+  </enumValues>
+  <enumValues uuid="c302d5a2-d59b-4dca-8fd9-f995ba7e3a78">
+    <name>ОбработчикАтолСканерыШтрихкода8X</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:Сканеры штрихкода 8.Х</value>
+    </synonym>
+    <comment>СканерШтрихкода</comment>
+  </enumValues>
+  <enumValues uuid="87bbbe12-9d5d-48fe-8108-9731766ff578">
+    <name>ОбработчикАтолСчитывателиМагнитныхКарт</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:Считыватели магнитных карт</value>
+    </synonym>
+    <comment>СчитывательМагнитныхКарт</comment>
+  </enumValues>
+  <enumValues uuid="3f34560a-a27d-4f2b-be4e-de74098b0146">
+    <name>ОбработчикАтолСчитывателиМагнитныхКарт8X</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:Считыватели магнитных карт 8.Х</value>
+    </synonym>
+    <comment>СчитывательМагнитныхКарт</comment>
+  </enumValues>
+  <enumValues uuid="5a0ddf46-37d5-48ee-8727-b884ec77e669">
+    <name>ОбработчикАтолТерминалыСбораДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:Терминалы сбора данных</value>
+    </synonym>
+    <comment>ТерминалСбораДанных</comment>
+  </enumValues>
+  <enumValues uuid="22a6ebff-3443-42e8-a15b-bcf020d08ca8">
+    <name>ОбработчикАтолТерминалыСбораДанныхMobileLogistics</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:Терминалы сбора данных MobileLogistics 8.Х</value>
+    </synonym>
+    <comment>ТерминалСбораДанных</comment>
+  </enumValues>
+  <enumValues uuid="c5a61c0e-d609-4f5f-8e48-d492d537038a">
+    <name>ОбработчикАтолФискальныеРегистраторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:Фискальные регистраторы 6.Х</value>
+    </synonym>
+    <comment>ФискальныйРегистратор</comment>
+  </enumValues>
+  <enumValues uuid="45f7ce4c-7bf0-42cd-8338-a2a46b622333">
+    <name>ОбработчикАтолФискальныеРегистраторы8X</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:Фискальные регистраторы 8.Х</value>
+    </synonym>
+    <comment>ФискальныйРегистратор</comment>
+  </enumValues>
+  <enumValues uuid="5a81c0a0-9902-415d-a2cf-474843b8a33e">
+    <name>ОбработчикАтолФискальныеРегистраторыУниверсальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:Фискальные регистраторы (Универсальный)</value>
+    </synonym>
+    <comment>ФискальныйРегистратор</comment>
+  </enumValues>
+  <enumValues uuid="123404cb-bf53-4e84-a7fc-2ddee1d3488b">
+    <name>ОбработчикАтолЭлектронныеВесы</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:Электронные весы</value>
+    </synonym>
+    <comment>ЭлектронныеВесы</comment>
+  </enumValues>
+  <enumValues uuid="cacaa8fb-e3a0-46d8-a4c7-206a0a122473">
+    <name>ОбработчикАтолЭлектронныеВесы8X</name>
+    <synonym>
+      <key>ru</key>
+      <value>АТОЛ:Электронные весы 8.Х</value>
+    </synonym>
+    <comment>ЭлектронныеВесы</comment>
+  </enumValues>
+  <enumValues uuid="1c0eb8a7-cc2e-4a4b-9fec-1478c301eb0c">
+    <name>ОбработчикВерсияТK1Ф54ФЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия-Т:ККТ с передачей данных в ОФД (54-ФЗ)</value>
+    </synonym>
+    <comment>ККТ</comment>
+  </enumValues>
+  <enumValues uuid="b538b08e-7489-4b21-badf-cc4cb415b057">
+    <name>ОбработчикВерсияТФискальныеРегистраторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия-Т:Фискальные регистраторы КАСБИ</value>
+    </synonym>
+    <comment>ФискальныйРегистратор</comment>
+  </enumValues>
+  <enumValues uuid="6af73396-63cf-4745-ba39-c30c1e50ecf1">
+    <name>ОбработчикГАЗПРОМБАНКЭквайринговыеТерминалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГАЗПРОМБАНК:Эквайринговые терминалы</value>
+    </synonym>
+    <comment>ЭквайринговыйТерминал</comment>
+  </enumValues>
+  <enumValues uuid="4064c887-4935-437a-85d5-74f3f3437a63">
+    <name>ОбработчикГексагонПринтераЭтикеток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гексагон:Принтера этикеток Zebra,Proton,Toshiba-TEC,Datamax-O neil</value>
+    </synonym>
+    <comment>ПринтерЭтикеток</comment>
+  </enumValues>
+  <enumValues uuid="a94353bd-eed8-4145-937f-3361d950b33c">
+    <name>ОбработчикГексагонСканерыШтрихкода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гексагон:Сканеры штрихкода Proton</value>
+    </synonym>
+    <comment>СканерШтрихкода</comment>
+  </enumValues>
+  <enumValues uuid="be7ddb41-533f-489d-b116-91f48361bf76">
+    <name>ОбработчикГексагонТерминалыСбораДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гексагон:Терминалы сбора данных Goods</value>
+    </synonym>
+    <comment>ТерминалСбораДанных</comment>
+  </enumValues>
+  <enumValues uuid="cc651564-e14e-45f1-ab76-77442876b2f7">
+    <name>ОбработчикДримкасФискальныеРегистраторыVikiPrint</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дримкас:Фискальные регистраторы VikiPrint</value>
+    </synonym>
+    <comment>ФискальныйРегистратор</comment>
+  </enumValues>
+  <enumValues uuid="bc67dcd3-7115-4fa8-bff1-967426d3cacf">
+    <name>ОбработчикИНПАСЭквайринговыеТерминалыSmart</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНПАС:Эквайринговые терминалы Smart</value>
+    </synonym>
+    <comment>ЭквайринговыйТерминал</comment>
+  </enumValues>
+  <enumValues uuid="ebabfb77-345c-4fee-8679-1d1cb73e4f5e">
+    <name>ОбработчикИНПАСЭквайринговыеТерминалыUNIPOS</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИНПАС:Эквайринговые терминалы UNIPOS</value>
+    </synonym>
+    <comment>ЭквайринговыйТерминал</comment>
+  </enumValues>
+  <enumValues uuid="d839cf51-081b-4d54-81b6-b7be0ce829ba">
+    <name>ОбработчикИскраККТ54ФЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИСКРА:ККТ с передачей данных в ОФД (54-ФЗ)</value>
+    </synonym>
+    <comment>ККТ</comment>
+  </enumValues>
+  <enumValues uuid="491118fd-7cff-479e-afe1-7b2c37769fdd">
+    <name>ОбработчикИскраФискальныеРегистраторыПрим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Искра:Фискальные регистраторы Прим</value>
+    </synonym>
+    <comment>ФискальныйРегистратор</comment>
+  </enumValues>
+  <enumValues uuid="47decda5-f667-4145-acfb-2aabd5c36869">
+    <name>ОбработчикККСДисплеиПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>ККС:Дисплеи покупателя</value>
+    </synonym>
+    <comment>ДисплейПокупателя</comment>
+  </enumValues>
+  <enumValues uuid="13ff0688-329a-454d-b7c6-68d27187c0c3">
+    <name>ОбработчикККСККТ54ФЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ККС:ККТ с передачей данных в ОФД (54-ФЗ)</value>
+    </synonym>
+    <comment>ККТ</comment>
+  </enumValues>
+  <enumValues uuid="1fd434d7-909d-4013-802f-a5de276a21d4">
+    <name>ОбработчикККСФискальныеРегистраторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>ККС:Фискальные регистраторы</value>
+    </synonym>
+    <comment>ФискальныйРегистратор</comment>
+  </enumValues>
+  <enumValues uuid="e3c9d800-07cb-4247-b67c-543c40e2a840">
+    <name>ОбработчикКлеверенсСчитывателиRFID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клеверенс:Cчитыватели RFID</value>
+    </synonym>
+    <comment>СчитывательRFID</comment>
+  </enumValues>
+  <enumValues uuid="f2855008-f645-43d2-8e60-989d12de4bda">
+    <name>ОбработчикКлеверенсТерминалыСбораДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клеверенс:Терминалы сбора данных</value>
+    </synonym>
+    <comment>ТерминалСбораДанных</comment>
+  </enumValues>
+  <enumValues uuid="d611bfa5-689b-416c-a2fe-88aa7e6353d0">
+    <name>ОбработчикКристаллСервисДисплеиПокупателяVikiVision</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кристалл Сервис:Дисплей покупателя VikiVision</value>
+    </synonym>
+    <comment>ДисплейПокупателя</comment>
+  </enumValues>
+  <enumValues uuid="d2d912f5-98f3-4359-89b2-3d2891b7ab18">
+    <name>ОбработчикКристаллСервисФискальныеРегистраторыPirit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кристалл Сервис:Фискальные регистраторы Pirit</value>
+    </synonym>
+    <comment>ФискальныйРегистратор</comment>
+  </enumValues>
+  <enumValues uuid="56b73ffc-e43d-40e4-8966-d8c247a0a53d">
+    <name>ОбработчикМассаКВесыСПечатьюЭтикеток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Масса-К:Весы с печатью этикеток</value>
+    </synonym>
+    <comment>ВесыСПечатьюЭтикеток</comment>
+  </enumValues>
+  <enumValues uuid="5b127e1f-caff-47d7-8468-24c0052564d1">
+    <name>ОбработчикМассаКЭлектронныеВесы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Масса-К:Электронные весы</value>
+    </synonym>
+    <comment>ЭлектронныеВесы</comment>
+  </enumValues>
+  <enumValues uuid="be6fca8a-1011-4e2f-92f6-2a8f52384d6e">
+    <name>ОбработчикОРИОНФискальныеРегистраторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОРИОН:Фискальный регистратор ФР01К</value>
+    </synonym>
+    <comment>ФискальныйРегистратор</comment>
+  </enumValues>
+  <enumValues uuid="e2729267-a43e-4e6a-8d54-69654749147b">
+    <name>ОбработчикРБСВесыCПечатьюЭтикеток</name>
+    <synonym>
+      <key>ru</key>
+      <value>РБС:Весы c печатью этикеток</value>
+    </synonym>
+    <comment>ВесыСПечатьюЭтикеток</comment>
+  </enumValues>
+  <enumValues uuid="b786396f-547f-4563-aac4-1f23fd48e3d5">
+    <name>ОбработчикСБРФЭквайринговыеТерминалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>СБРФ:Эквайринговые терминалы</value>
+    </synonym>
+    <comment>ЭквайринговыйТерминал</comment>
+  </enumValues>
+  <enumValues uuid="5b704a11-8d19-43ba-8f8c-6ba60657e16a">
+    <name>ОбработчикСканкодДисплеиПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сканкод:Дисплеи покупателя</value>
+    </synonym>
+    <comment>ДисплейПокупателя</comment>
+  </enumValues>
+  <enumValues uuid="aef35a39-adda-4c41-bfff-cb98930dbcb7">
+    <name>ОбработчикСканкодДисплеиПокупателяNative</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сканкод:Дисплеи покупателя (NativeAPI)</value>
+    </synonym>
+    <comment>ДисплейПокупателя</comment>
+  </enumValues>
+  <enumValues uuid="03f5eaf6-ddf2-4902-9744-a36120cec4a0">
+    <name>ОбработчикСканкодПринтераЭтикетокGodexEZPL8Native</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сканкод:Принтера этикетокGodexEZPL8 (NativeAPI)</value>
+    </synonym>
+    <comment>ПринтерЭтикеток</comment>
+  </enumValues>
+  <enumValues uuid="66761a98-199b-475d-bacc-d254f71f8e3d">
+    <name>ОбработчикСканкодСканерыШтрихкода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сканкод:Сканеры штрихкода</value>
+    </synonym>
+    <comment>СканерШтрихкода</comment>
+  </enumValues>
+  <enumValues uuid="41e63ac4-53b7-4332-928f-79aaa330a9dc">
+    <name>ОбработчикСканкодСчитывательRFIDCipherLab</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сканкод:Считыватели RFID CipherLab</value>
+    </synonym>
+    <comment>СчитывательRFID</comment>
+  </enumValues>
+  <enumValues uuid="f50ae046-9f5b-49f1-95a6-4992371006e2">
+    <name>ОбработчикСканкодТерминалыСбораДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сканкод:Терминалы сбора данных</value>
+    </synonym>
+    <comment>ТерминалСбораДанных</comment>
+  </enumValues>
+  <enumValues uuid="3fa6133e-7fb5-4a9b-8ea9-9ce66555fe64">
+    <name>ОбработчикСканкодТерминалыСбораДанныхNative</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сканкод:Терминалы сбора данных CipherLAB 8x00 (NativeApi)</value>
+    </synonym>
+    <comment>ТерминалСбораДанных</comment>
+  </enumValues>
+  <enumValues uuid="b79c4986-5f21-44a0-b3b4-b6ae24d8ab2f">
+    <name>ОбработчикСканситиПринтераЭтикеток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скансити:Принтер печати этикеток TSC</value>
+    </synonym>
+    <comment>ПринтерЭтикеток</comment>
+  </enumValues>
+  <enumValues uuid="263893b1-0f73-4e97-a104-8ab165e80ee9">
+    <name>ОбработчикСканситиТерминалыСбораДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скансити:Терминалы сбора данных</value>
+    </synonym>
+    <comment>ТерминалСбораДанных</comment>
+  </enumValues>
+  <enumValues uuid="fd3143b9-e12f-4626-b27d-dbbe80818e47">
+    <name>ОбработчикСчетмашККТ54ФЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счетмаш:ККТ с передачей данных в ОФД (54-ФЗ)</value>
+    </synonym>
+    <comment>ККТ</comment>
+  </enumValues>
+  <enumValues uuid="aea29ef4-3595-4323-a1a1-48c3358a6c3f">
+    <name>ОбработчикШтрихМВесыСПечатьюЭтикеток</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШТРИХ-М:Весы с печатью этикеток</value>
+    </synonym>
+    <comment>ВесыСПечатьюЭтикеток</comment>
+  </enumValues>
+  <enumValues uuid="4992f8ba-f535-41e6-93fd-2e953c2ba66d">
+    <name>ОбработчикШтрихМВесыСПечатьюЭтикетокШтрихПринт</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШТРИХ-М:Весы с печатью этикеток ШТРИХ-ПРИНТ</value>
+    </synonym>
+    <comment>ВесыСПечатьюЭтикеток</comment>
+  </enumValues>
+  <enumValues uuid="954d4ae7-afb1-4e87-b241-325c98a10bcb">
+    <name>ОбработчикШтрихМДисплеиПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШТРИХ-М:Дисплеи покупателя</value>
+    </synonym>
+    <comment>ДисплейПокупателя</comment>
+  </enumValues>
+  <enumValues uuid="c3cf361d-3a16-4c94-a739-44182a954962">
+    <name>ОбработчикШтрихМККМOffline</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШТРИХ-М:ККМ Офлайн</value>
+    </synonym>
+    <comment>ККМОфлайн</comment>
+  </enumValues>
+  <enumValues uuid="9d78fbb3-6bdd-4901-a5a6-7ac4aa916d03">
+    <name>ОбработчикШтрихМККТ54ФЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШТРИХ-М:ККТ с передачей данных в ОФД (54-ФЗ)</value>
+    </synonym>
+    <comment>ККТ</comment>
+  </enumValues>
+  <enumValues uuid="eaef1659-20cc-4cce-a6b4-48928ef07847">
+    <name>ОбработчикШтрихМПлатежныйТерминалYarus</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШТРИХ-М:Платежный терминал Yarus</value>
+    </synonym>
+    <comment>ЭквайринговыйТерминал</comment>
+  </enumValues>
+  <enumValues uuid="e062375a-6295-4b98-be66-5c712f0499e6">
+    <name>ОбработчикШтрихМТерминалыСбораДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШТРИХ-М:Терминалы сбора данных</value>
+    </synonym>
+    <comment>ТерминалСбораДанных</comment>
+  </enumValues>
+  <enumValues uuid="bafce04b-1e86-4e68-ad4d-6c286a1c0074">
+    <name>ОбработчикШтрихМФискальныеРегистраторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШТРИХ-М:Фискальные регистраторы</value>
+    </synonym>
+    <comment>ФискальныйРегистратор</comment>
+  </enumValues>
+  <enumValues uuid="1224279f-7980-4ad3-bc8b-5b285dc6d1a1">
+    <name>ОбработчикШтрихМФискальныеРегистраторыУниверсальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШТРИХ-М:Фискальные регистраторы (Универсальный)</value>
+    </synonym>
+    <comment>ФискальныйРегистратор</comment>
+  </enumValues>
+  <enumValues uuid="5b69abff-4bc7-4961-8a3c-f348a8c2d4e6">
+    <name>ОбработчикШтрихМЭлектронныеВесы</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШТРИХ-М:Электронные весы</value>
+    </synonym>
+    <comment>ЭлектронныеВесы</comment>
+  </enumValues>
+  <enumValues uuid="c6d5d62a-e78d-452c-88ff-e6f36bf4b295">
+    <name>ОбработчикШтрихМЭлектронныеВесыPOS2</name>
+    <synonym>
+      <key>ru</key>
+      <value>ШТРИХ-М:Электронные весы POS2</value>
+    </synonym>
+    <comment>ЭлектронныеВесы</comment>
+  </enumValues>
+  <enumValues uuid="b62773c6-93ea-48ee-bab9-f16d3c1119ef">
+    <name>ОбработчикДримкасККТ54ФЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дримкас:ККТ с передачей данных в ОФД Вики Принт (54-ФЗ)</value>
+    </synonym>
+    <comment>ККТ</comment>
+  </enumValues>
+</mdclass:Enum>

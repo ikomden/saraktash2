@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5af7c940-9308-4619-97ec-417e0ef47541">
+  <name>ОфлайнОборудование1СККМВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчик драйвера &quot;1С:ККМ Офлайн&quot;</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

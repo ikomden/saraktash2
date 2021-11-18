@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e17c19f0-be45-4ab2-8c54-1c6cf31681a7">
+  <name>Магазин</name>
+  <synonym>
+    <key>ru</key>
+    <value>Магазин</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ЗаказПокупателя</content>
+  <content>Document.ВозвратТоваровОтПокупателя</content>
+  <content>AccumulationRegister.Взаиморасчеты</content>
+  <content>Report.ВедомостьПоВзаиморасчетам</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Report.СпособыДоставки</content>
+  <content>Report.МетодОплаты</content>
+  <content>Report.Возвраты</content>
+  <content>Report.ВозвратыПоАртикулам</content>
+  <content>Report.ПрибыльСЗаказа</content>
+  <content>Report.СренийЧек</content>
+  <content>Report.ПродажиПоЦенам</content>
+  <content>Report.ПоКатегориям</content>
+  <content>Report.ПоИзделиям</content>
+  <content>DataProcessor.ПерераспределениеИзделий</content>
+  <content>Catalog.ОбратнаяCвязь</content>
+  <content>Report.ДинамикаКоличестваЗаказов</content>
+  <content>Report.ДинамикаПродажиИзделий</content>
+  <content>Report.ДинамикаОтправленныхИзделий</content>
+  <content>Report.ДинамикаСреднегоЧека</content>
+  <content>Report.ДиапазонЗаказов</content>
+  <content>Report.ДинамикаПрибылиСЗаказов</content>
+  <content>Report.ПрибыльСИзделияЗаПериод</content>
+  <content>Report.ОтчетПоВозвратам</content>
+  <content>Report.ДинамикаПрибылиСЗаказовДоставка</content>
+  <content>Report.ОтчетПоВозвратамПоАртикулам</content>
+  <content>Report.ФормаДляЗаявок</content>
+  <subsystems>Ценообразование</subsystems>
+</mdclass:Subsystem>

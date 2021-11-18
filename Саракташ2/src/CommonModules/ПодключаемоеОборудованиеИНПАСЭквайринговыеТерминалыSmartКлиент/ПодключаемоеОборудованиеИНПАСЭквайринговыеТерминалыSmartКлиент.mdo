@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1d7dd28-2c4b-4526-b8e2-32697a3eb742">
+  <name>ПодключаемоеОборудованиеИНПАСЭквайринговыеТерминалыSmartКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработчик драйвера &quot;ИНПАС: Эквайринговые терминалы Smart&quot;</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

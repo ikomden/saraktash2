@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b148625-13a7-43b7-bceb-a575be4a1f98">
+  <producedTypes>
+    <selectionType typeId="578b56ca-42e1-46f6-88d4-1e0812905978" valueTypeId="6caf8a2c-523b-4093-a746-67c8e66e1c2d"/>
+    <listType typeId="1cadd575-fa82-481b-8cbe-ee06ac530e6c" valueTypeId="3166e86b-3f0e-4e87-b8f1-2fd1cd856773"/>
+    <managerType typeId="e37b4dc4-d97c-4982-993b-248fae88a0ec" valueTypeId="5fb9ffba-282c-436f-aca4-00e62fe7543d"/>
+    <recordSetType typeId="27587e4e-9638-4a35-987d-e2509fc3a753" valueTypeId="108e51b5-3057-48dd-acc9-5e90c1456be5"/>
+    <recordKeyType typeId="02418233-0d39-412c-b7ec-1c2f8f0b3ded" valueTypeId="788e058a-d92f-486c-be12-cecf1165102d"/>
+    <recordType typeId="9eb684a5-fac3-4b7d-b10e-6125923dc81a" valueTypeId="02f65256-0062-482d-b58c-40fb53459225"/>
+    <recordManagerType typeId="75f40f59-20e7-4844-b04e-56c95f5cb435" valueTypeId="15a0bc09-5719-4d64-bb70-dbdfc9c8e41c"/>
+  </producedTypes>
+  <name>Скидки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скидки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Скидки.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Скидки.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="22207936-f8df-4260-965c-002b24967e9d">
+    <name>ПроцентСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент скидки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e0b63b2a-2b76-4f28-8597-171c7a292ed8">
+    <name>СуммаСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма скидки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="8418472c-f9f0-4fc9-9499-a8426270179a">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="5e0ae41b-e1a9-4c8e-9cdc-93653cf5db47">
+    <name>НазначениеСкидки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение скидки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.МетодыОплаты</types>
+      <types>EnumRef.НазначенияСкидок</types>
+      <types>CatalogRef.СпособыДоставки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="05499398-d1c6-41a2-b2d0-495ae835935a">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0c0beca0-a888-4022-a2ed-000e4a304f63">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

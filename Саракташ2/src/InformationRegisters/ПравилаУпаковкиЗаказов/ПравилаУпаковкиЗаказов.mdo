@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4aa583b7-befd-470b-b5b1-031880a34a0d">
+  <producedTypes>
+    <selectionType typeId="a612cb9e-5a5c-4fca-81af-ec34f3419ca1" valueTypeId="cdb28f70-b9f7-4e40-8972-1be7485b3bd3"/>
+    <listType typeId="74a52bd2-4897-4253-b2c1-fecfef854ee2" valueTypeId="20864fdf-f076-4488-bba9-d0f43277bb09"/>
+    <managerType typeId="7491d888-90b7-4702-ae03-0269062f7243" valueTypeId="65d3244f-5a7b-4f1e-9ff9-16951352e168"/>
+    <recordSetType typeId="ba4986ae-cd40-4f15-8989-36d105d45937" valueTypeId="50d47315-7746-4898-94e3-2dc387ddae65"/>
+    <recordKeyType typeId="308e56c3-d22f-415c-89ca-c308fa55c48f" valueTypeId="498273de-e42a-4714-8167-6e70b9bb95f3"/>
+    <recordType typeId="46a068b9-2b91-4a64-9b46-50aa0bbfccc2" valueTypeId="0fd5318f-a5ca-4db4-818f-54d3b04c4df5"/>
+    <recordManagerType typeId="d5dc518d-937f-4c24-b4f5-1c154593b7c2" valueTypeId="7fdab8eb-b6f1-4f1f-acf8-7c523fb30571"/>
+  </producedTypes>
+  <name>ПравилаУпаковкиЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Правила упаковки заказов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПравилаУпаковкиЗаказов.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fa49f558-1d7f-4ef5-93bb-5bafa0601615">
+    <name>КоличествоТовара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество товара</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ТипКоличество</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1a6d2baf-d1b8-4193-8ca7-e22ba1e4043f">
+    <name>КоличествоУпаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество упаковка</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ТипКоличество</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="fdc0c42d-12d1-4a45-b334-ed21c43e9fea">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b858fa79-86d8-4235-ad3f-587621e835de">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="61a90131-1342-4e9f-a9b4-66b219bd6848">
+    <name>ТипПравила</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип правила</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ТипыПравилУпаковки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ba2534ea-4206-4054-a44e-280d49ce7cba">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура или категория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорииТоваров</types>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4011338c-0f75-40c9-9280-b643319809d3">
+    <name>Упаковка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упаковка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="59056573-e677-4f3b-8d3d-0fc9ba70ab1c">
+    <name>ВидЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид заказа</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыЗаказовПокупателей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8bca506d-3306-4abc-af12-edecd4a07620">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

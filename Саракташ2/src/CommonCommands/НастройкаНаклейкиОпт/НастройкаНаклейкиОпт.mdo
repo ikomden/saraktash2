@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="866a9f16-7f43-4f36-90f7-ff58a9f0e218">
+  <name>НастройкаНаклейкиОпт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка наклейки ОПТ</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

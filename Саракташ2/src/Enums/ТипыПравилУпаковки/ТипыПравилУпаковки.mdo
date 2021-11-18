@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54460620-ecd6-453b-a983-46c4986b049f">
+  <producedTypes>
+    <refType typeId="5ccabd7f-9043-4630-8cfe-5ae296c15e4f" valueTypeId="c3e4b349-a6da-4ede-8805-bc7c69b28ef4"/>
+    <listType typeId="04df0262-005f-49ff-a75b-f1dd57521179" valueTypeId="98bc9ec1-cecc-4922-b8da-360fa59e6602"/>
+    <managerType typeId="fbfc6a95-d61f-4ba5-820c-b407c1fd6006" valueTypeId="e2672338-acf1-4067-a794-c5ffcfb29672"/>
+  </producedTypes>
+  <name>ТипыПравилУпаковки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы правил упаковки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d173454c-abe0-448a-a9ff-1c1811e4304d">
+    <name>ДляКаждойПозиции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для каждой позиции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20124117-7bff-435c-b231-0b40cc7992ee">
+    <name>ДляКатегорииПозиции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для категории позиции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67b17118-2a90-40d7-a6b3-b78f4477c959">
+    <name>ДляКаждогоЗаказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для каждого заказа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

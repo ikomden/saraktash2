@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8fd9168-2d7d-43d4-bc03-a03c7c5929c9">
+  <producedTypes>
+    <listType typeId="3380b177-5f48-4246-b57e-8b4eb0df3f74" valueTypeId="b5d425e4-9a7a-4b1e-a318-8b6425383319"/>
+    <managerType typeId="abf5c1e8-be7b-48c2-9c52-84a0881b262b" valueTypeId="80820c9f-f65f-4ab1-8302-172f2301240f"/>
+  </producedTypes>
+  <name>ДокументыПоЗаказуПокупателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы по заказу покупателя</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.ЗаказПокупателя</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <content>Document.ВозвратТоваровОтПокупателя.Attribute.Заказ</content>
+  <content>Document.ПриходныйКассовыйОрдер.TabularSection.Расшифровка.Attribute.Сделка</content>
+  <content>Document.РасходныйКассовыйОрдер.TabularSection.Расшифровка.Attribute.Сделка</content>
+  <content>Document.ПоступлениеНаРасчетныйСчет.TabularSection.Расшифровка.Attribute.Сделка</content>
+  <content>Document.СписаниеСРасчетногоСчета.TabularSection.Расшифровка.Attribute.Сделка</content>
+</mdclass:FilterCriterion>

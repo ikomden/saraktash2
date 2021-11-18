@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f6c02f4-cb12-4aca-868e-863ae37ca06d">
+  <producedTypes>
+    <objectType typeId="bc2bac19-722c-40e9-a260-3197cbe38b43" valueTypeId="947c0504-9e6a-4be9-b438-155e83051279"/>
+    <refType typeId="16b5de29-2571-4b43-b955-43dec799e854" valueTypeId="0c3c4eb9-d6e0-407f-a112-60c3f477baae"/>
+    <selectionType typeId="3aa5df48-fd03-4beb-9fcd-f367c505274d" valueTypeId="cf7000b1-e8ef-443e-96bb-bfb5435c3a75"/>
+    <listType typeId="05c26e65-d704-451c-b44b-b92d785c2b2a" valueTypeId="be219023-ea0f-4cfc-8fc9-11d71e3d4de0"/>
+    <managerType typeId="83c1fcba-78f7-4690-ba90-54eb74882912" valueTypeId="ef3e10b2-21d1-460c-962a-4f6977c5bfba"/>
+  </producedTypes>
+  <name>Корректировка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.Корректировка.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.Запасы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <tabularSections uuid="ec2d9aa5-653e-40d1-b8e2-f0c3f7903777">
+    <producedTypes>
+      <objectType typeId="8c907021-2823-4686-8da5-bb1ce4501fcf" valueTypeId="0618ef50-c131-4a9c-a0b1-65be035778fc"/>
+      <rowType typeId="26b4f7d0-e017-4e1e-8016-7702dea72bdb" valueTypeId="08cb61fb-c83f-449e-93ba-eaf0d4e7dbbc"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="6a263f8e-1e07-4b26-8359-2bf0033462af">
+      <name>Склад</name>
+      <synonym>
+        <key>ru</key>
+        <value>Склад</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Склады</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="29e99fe8-2f6e-4b95-ab20-a475631e9877">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="111bbee2-e291-4b4b-ab07-710e84e1daf7">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

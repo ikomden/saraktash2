@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="932b5d9c-4e13-4ed4-bbe6-1f65bf0606fe">
+  <name>ПеремещенияСПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перемещения в Оренбург</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

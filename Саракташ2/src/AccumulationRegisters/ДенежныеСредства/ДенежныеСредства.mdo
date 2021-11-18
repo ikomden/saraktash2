@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d45c575-65ba-46e5-8a7a-1965ff3c8053">
+  <producedTypes>
+    <selectionType typeId="35a00f55-71e0-45d7-aaa7-4574989b66bb" valueTypeId="4d72a015-ed84-4ba6-b570-e688f0bdfa26"/>
+    <listType typeId="0e18f74d-8c6b-42c1-8f7e-ee6afbc51cbb" valueTypeId="ceb43712-aee5-43a7-8e28-d18262908a1c"/>
+    <managerType typeId="0a571cfb-e40c-46da-a817-95bcbadb4bca" valueTypeId="60f7cd76-ea76-4501-8fdc-9cd7cecf1209"/>
+    <recordSetType typeId="8ae46326-3e47-46c8-b91a-be2f946d50b5" valueTypeId="23b7cbcc-b078-46b1-b1c6-b6828ac3f90b"/>
+    <recordKeyType typeId="e53ccf30-7acb-4bce-99e7-c44598c32642" valueTypeId="6e0521dc-eb1e-4d35-8360-ed523c574052"/>
+    <recordType typeId="ba11c776-2176-4565-a3e6-3c8942b79a87" valueTypeId="2823224b-29eb-414f-92b5-e9391560ed2e"/>
+  </producedTypes>
+  <name>ДенежныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Денежные средства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="9a076697-e98d-4567-9807-c124f8667539">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ТипЦена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="09b89be6-3120-4481-8039-72c0fc2c771d">
+    <name>КассаСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса счет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кассы</types>
+      <types>CatalogRef.БанковскиеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

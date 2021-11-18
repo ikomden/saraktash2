@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0bcdaed6-3b43-4c67-8609-bb6e8873d854">
+  <name>Опт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Опт</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ЗаказПокупателя</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Document.ПоступлениеТоваров</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Report.ОтчетОКоличествеОптовыхТоваров</content>
+  <content>DataProcessor.ПереводАртикулов</content>
+  <content>Report.ДинамикаПоступленийСОптовыхЗаказов</content>
+  <content>Report.ПрибыльСОптовогоЗаказа</content>
+</mdclass:Subsystem>

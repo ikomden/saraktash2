@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="96299635-ecf6-4b5d-93f0-75a4388d65e8">
+  <producedTypes>
+    <selectionType typeId="9497d3ca-e2e9-4aeb-ba8d-f9c23124440e" valueTypeId="2d3fa678-4978-4f9c-8487-c88ee89ff614"/>
+    <listType typeId="b77a96e6-9604-463a-967f-cd5539d25be6" valueTypeId="1c914921-cfaa-49e9-9c24-d3f445586353"/>
+    <managerType typeId="eabb24ca-7d51-4850-935b-0d89f6c87003" valueTypeId="4711d0ee-3688-4c45-886e-e3e5740c1388"/>
+    <recordSetType typeId="567e860b-da05-4aba-91ff-19bb54a2165f" valueTypeId="30a3e35e-8294-49fe-9dff-d77668f5258a"/>
+    <recordKeyType typeId="b7539e61-8c87-49c7-bdd9-17aae32e648d" valueTypeId="3aa3b0f0-c53f-48ec-b8a5-b1a4d68e3a48"/>
+    <recordType typeId="f00fb8e6-8b2b-4e1c-803f-cad23e75a3c7" valueTypeId="abf28d6d-f625-44a9-afd7-5f439999720b"/>
+  </producedTypes>
+  <name>Взаиморасчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="c3046e09-f74c-42a9-8845-4fbeb354cb38">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ТипЦена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="01748973-7dc5-4316-b2dd-b921d75ab42f">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="17f4f357-9828-4b8d-a8d7-871dcd50eab7">
+    <name>Сделка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сделка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПокупателя</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

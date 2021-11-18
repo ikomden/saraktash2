@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03699c4d-7f1c-4e70-b8e4-4a21e64ca8aa">
+  <producedTypes>
+    <objectType typeId="03cc9042-3e3c-47a9-be9f-482519eacf76" valueTypeId="b4aee318-35fa-45f4-a7ab-ed46c0996757"/>
+    <refType typeId="9b7865cc-607b-4d47-9c1f-7c0658916f00" valueTypeId="cd492c4d-e309-4bf3-86f1-7cce25258455"/>
+    <selectionType typeId="ae9d35ba-f41e-4576-b1cc-488bb760d7fb" valueTypeId="e986e719-2656-458f-bc8f-ecb00dc5002a"/>
+    <listType typeId="7b695edf-c560-4e72-9e82-2df4638ff748" valueTypeId="3b8ace3e-f22e-41a4-bada-97b5c99ae8fa"/>
+    <managerType typeId="6a76d217-81eb-40cc-b8d7-0bedcdc5a779" valueTypeId="7ae38162-7483-41a6-9280-b59be86bba02"/>
+  </producedTypes>
+  <name>ДополнительныеЗначенияРеквизитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные значения реквизитов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДополнительныеЗначенияРеквизитов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ДополнительныеЗначенияРеквизитов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>ChartOfCharacteristicTypes.ДополнительныеРеквизиты</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <attributes uuid="d926ac2a-37ac-46e2-a580-2697cf71d405">
+    <name>IDНаСайте</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID на сайте</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="50bcd5ea-5fe5-4073-8af3-cb901b5d802f">
+    <name>Артикул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

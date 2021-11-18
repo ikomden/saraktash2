@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a2b4a85-3344-4411-a4b1-4b52fd8f792c">
+  <producedTypes>
+    <refType typeId="94d7fe66-ad09-4b73-80a6-1791db4f94b3" valueTypeId="41fcbedc-c531-4469-b8ee-745e939c6f70"/>
+    <listType typeId="ce09ed55-4f65-40a2-83fe-339f66991429" valueTypeId="0d454cb1-db86-4854-850f-37ff2fb7d774"/>
+    <managerType typeId="69ecc35e-60a1-4532-8c58-2d2dd5e76157" valueTypeId="6930232e-4db1-4f04-bc9b-c25546aa30a5"/>
+  </producedTypes>
+  <name>Сорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сорта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4ab5a29f-dfc3-4a0f-92ad-a37569dbe679">
+    <name>ПервыйСорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>I сорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2505776c-453e-44f4-ad9e-91b62af1402a">
+    <name>ВторойСорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>II сорт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

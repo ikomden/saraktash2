@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac35db92-6968-4ffe-9a6a-67bcb5d5e205">
+  <producedTypes>
+    <selectionType typeId="0df7d623-6ac8-4db8-a146-71337a965668" valueTypeId="739a3616-85c8-4ede-9a3b-01593bc0fc78"/>
+    <listType typeId="cea4ef2e-0162-4284-8175-53a159318625" valueTypeId="76fe5e1f-d05a-41b3-8a9d-7b9840096827"/>
+    <managerType typeId="40749bab-3225-4c22-99c7-24be05dafb50" valueTypeId="0a29b6a3-b921-452a-82b4-72564c196c8b"/>
+    <recordSetType typeId="a2eab0d6-03c2-4969-9538-747d88f58432" valueTypeId="d9fa5976-b071-452d-9755-1478dda871d1"/>
+    <recordKeyType typeId="4ed08c60-5685-4b63-a9ca-681170dd35e1" valueTypeId="32136fdb-05e1-4718-8458-80e438d734f0"/>
+    <recordType typeId="28f01e0e-7418-4c5d-b730-e78be72f05b5" valueTypeId="fafe7a55-083f-442d-b73a-a73f279c1360"/>
+    <recordManagerType typeId="0e47ee6f-b08b-41c1-a9de-b61e5db4d27d" valueTypeId="731805a2-30ab-4780-902e-aaeb366900eb"/>
+  </producedTypes>
+  <name>ТоварыПоКатегориям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары по категориям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="1a1c1ab8-9398-46da-84b5-5bb70d22a2c6">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ccf0eb74-1bb2-406d-9a06-34f513a1d5da">
+    <name>Категория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорииТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

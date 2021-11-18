@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b7af23d-84bc-4c43-82ca-3e7da41073d4">
+  <producedTypes>
+    <objectType typeId="9a2f3076-8a19-4bf1-abaa-8124bc5e948f" valueTypeId="82fcfd51-7174-4501-9da0-9081800f0dc1"/>
+    <managerType typeId="ceac01ba-6f62-45e3-b85b-a0c0ee64169c" valueTypeId="0150d158-5348-42df-b27c-cd4a6087777b"/>
+  </producedTypes>
+  <name>ТекущиеПроцентыПоУслугам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущие проценты по услугам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ТекущиеПроцентыПоУслугам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="4284d54c-397c-4d15-a216-01dfe56ab37d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

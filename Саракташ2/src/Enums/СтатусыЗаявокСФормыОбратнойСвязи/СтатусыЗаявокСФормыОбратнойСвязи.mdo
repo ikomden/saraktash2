@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f40571d2-635a-48cd-a644-c4f3ee101293">
+  <producedTypes>
+    <refType typeId="05ec0353-399f-4931-b585-32843be847c6" valueTypeId="a426401b-ffca-4e21-bbe1-341786cfa17a"/>
+    <listType typeId="86e5e50d-322b-4235-9ede-768f7133887f" valueTypeId="7d700f60-59e4-4653-97a2-da926e147c06"/>
+    <managerType typeId="26fe5da8-9f22-4007-aff5-ee9f98fc7fb4" valueTypeId="7872bfd0-ba14-4ad7-bedf-2748e8e264c0"/>
+  </producedTypes>
+  <name>СтатусыЗаявокСФормыОбратнойСвязи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заявок с формы обратной связи</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eb21e0d6-5b28-428c-bee0-84acbf78fdb2">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+    <comment>Пользователь оставил заявку</comment>
+  </enumValues>
+  <enumValues uuid="de0be12b-ede8-4342-8c13-a0a13f336165">
+    <name>Отложено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложено</value>
+    </synonym>
+    <comment>Оператор отложил по определенным обстоятельствам</comment>
+  </enumValues>
+  <enumValues uuid="c0e80af1-746b-4994-a568-b1dbaf5de53d">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+    <comment>Заявка не может быть обработана, неверный номер или т.п.</comment>
+  </enumValues>
+  <enumValues uuid="658efc99-459c-4f77-b392-ee8c194a9de7">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+    <comment>Заявка на звонок отработана успешно</comment>
+  </enumValues>
+</mdclass:Enum>

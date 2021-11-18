@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51b52c0f-bff5-4281-b0cd-206f1bd5511a">
+  <producedTypes>
+    <objectType typeId="d817d6b3-19a6-460c-99ef-94a35c4a587a" valueTypeId="771512fa-b177-4c7b-815a-48b184a27a22"/>
+    <refType typeId="b637cb9f-1f6d-4fe2-8758-790c92c5d7cd" valueTypeId="bbf3d832-4062-4ded-8928-602e82b09177"/>
+    <selectionType typeId="ffa99078-64e8-4787-b6a9-3e9b18548b36" valueTypeId="455222c7-662b-4012-9b2b-0e413e111865"/>
+    <listType typeId="0747dafd-2564-4c0a-8200-4a13173fa909" valueTypeId="0b48e2b3-ff0b-4290-8931-7009d0be1432"/>
+    <managerType typeId="c86f96e4-66aa-4dd8-bae8-8fea4a5b8e86" valueTypeId="6e00cd1e-0fe7-4382-8fa8-053e23bcce71"/>
+  </producedTypes>
+  <name>НедочетыПриПриемке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Недочеты при приемке</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НедочетыПриПриемке.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="a6fea001-41aa-4230-bd37-9e87225a1007">
+      <name>НеСоответствуетПолнойГотовности</name>
+      <description>Не соответствует полной готовности</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="8ddf4744-ae0c-4641-a06f-e9132a9187c8">
+      <name>НеСоответствуетРазмер</name>
+      <description>Не соответствует размер</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4375e682-56f8-4e87-83ce-ca6486c62638">
+      <name>НеСоответствуетРисунок</name>
+      <description>Не соответствует рисунок</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="a0729b43-0669-4e97-8fd7-2c2351af5da2">
+      <name>НеСоответствуетСостав</name>
+      <description>Не соответствует состав</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4dfdb0ca-75d6-43f0-8d06-ffae0b92737f">
+      <name>НеравномерноеРаспределениеПуха</name>
+      <description>Неравномерное распределение пуха</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="c8b77a11-282b-4d85-b14c-6f1dacfaedb9">
+      <name>НесоответствиеЦвета</name>
+      <description>Несоответствие цвета</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ef8bb010-5349-4945-83ae-a0aa91d4e214">
+      <name>Нитки</name>
+      <description>Нитки</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="57adc67e-3ea9-4a1c-81fa-aff2614b9669">
+      <name>Прочее</name>
+      <description>Прочее</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="83ce1e3c-6487-405a-8624-15c92dfa76c4">
+      <name>Пятна</name>
+      <description>Пятна</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="84a4eb93-ea66-486d-980a-78b46ecbae41">
+      <name>Сколы</name>
+      <description>Сколы</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+</mdclass:Catalog>

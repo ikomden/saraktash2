@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="677cff7f-8469-41ba-a4c8-86f4332516e5">
+  <producedTypes>
+    <objectType typeId="cd263260-130a-4425-8852-cb9f8a663d72" valueTypeId="2d1f3cd4-4215-4ba7-b071-7e7eb105943d"/>
+    <managerType typeId="14974a5c-c437-49f5-966b-737a8b086c69" valueTypeId="d0787979-75dc-4091-b999-86c200282b97"/>
+  </producedTypes>
+  <name>ДиапазонЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диапазон заказов</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ДиапазонЗаказов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="42be4279-79ac-4178-8173-d93f095ceb8f">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="136b01c4-223d-44ce-80b2-38fed3800cd7">
+    <name>ДиапазонЗаказовРозничные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон заказов (розничные)</value>
+    </synonym>
+    <group>ActionsPanelReports</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="d1cc7f1f-6c1e-4453-87fa-bb997f2c5077">
+    <name>ДиапазонЗаказовОптовые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон заказов (оптовые)</value>
+    </synonym>
+    <group>ActionsPanelReports</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

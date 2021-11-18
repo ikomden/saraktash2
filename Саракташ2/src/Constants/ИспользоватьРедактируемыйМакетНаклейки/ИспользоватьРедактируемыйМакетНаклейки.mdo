@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d39411a8-d133-4a45-9414-f5e99dd26280">
+  <producedTypes>
+    <managerType typeId="eba53ae2-c316-424b-af57-b7b18c23938c" valueTypeId="fd26cbb2-8cd3-4d87-a28b-7bbfbda7e62a"/>
+    <valueManagerType typeId="261c08b9-5dd5-4901-b43c-cb37c11864e3" valueTypeId="cdafd610-0806-47b6-a53a-15397cbf65be"/>
+    <valueKeyType typeId="7e049332-466a-51e9-8d7d-a2bba2303b3c" valueTypeId="594bad0f-b928-5036-a54e-e48eefe5524d"/>
+  </producedTypes>
+  <name>ИспользоватьРедактируемыйМакетНаклейки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать редактируемый макет наклейки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

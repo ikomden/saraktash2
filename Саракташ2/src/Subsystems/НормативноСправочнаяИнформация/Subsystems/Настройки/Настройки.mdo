@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c4a2df7-7d80-4247-9183-56c956ec6148">
+  <name>Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ПолитикаСписанияТоваров</content>
+  <content>InformationRegister.ПравилаУпаковкиЗаказов</content>
+  <content>DataProcessor.РегистрацияИзмененийДляОбменаДанными</content>
+  <content>ExchangePlan.ОбменССайтом</content>
+  <content>InformationRegister.Скидки</content>
+  <content>CommonForm.ФормаКонстант</content>
+  <content>Catalog.ПодключаемоеОборудование</content>
+  <content>CommonCommand.НастройкаНаклейки</content>
+  <content>CommonCommand.ПерепровестиПоСебестоимости</content>
+  <content>Constant.ОптовыйСклад</content>
+  <content>Constant.РозничныйСклад</content>
+  <content>CommonCommand.НастройкаНаклейкиОпт</content>
+  <content>Constant.ИспользоватьРедактируемыйМакетНаклейки</content>
+  <content>Constant.ИспользоватьРедактируемыйМакетНаклейкиОпт</content>
+  <content>CommonCommand.ПересчитатьПрибыльВЗаказах</content>
+  <content>Constant.ПоставщикДляПроизводства</content>
+  <content>Constant.РазмерДляПлатков</content>
+  <content>Constant.СкладБрак</content>
+  <content>DataProcessor.НастройкиПользователей</content>
+  <parentSubsystem>Subsystem.НормативноСправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

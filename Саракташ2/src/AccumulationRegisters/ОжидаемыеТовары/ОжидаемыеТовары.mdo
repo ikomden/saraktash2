@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5d21b94-ae93-4943-96cc-2c756fe4d9cb">
+  <producedTypes>
+    <selectionType typeId="ce52227c-5372-4800-8d1e-255f6268633f" valueTypeId="9477c8fb-c9ee-4b33-b674-3eef9cb455ea"/>
+    <listType typeId="a9ed7a51-5af7-4560-9fbd-a7d36df9f473" valueTypeId="38251fb4-1bac-41b2-8803-884a419a3d8a"/>
+    <managerType typeId="68a12ec7-fd8f-409c-9fac-761594ccb01f" valueTypeId="0de42045-d96b-4645-bf3a-7fb1e70d7a99"/>
+    <recordSetType typeId="a49d4ddf-072d-4032-9cdf-0b9993bd2ee1" valueTypeId="8d7ffe8f-1cc8-4af3-bb5a-5ceab3f306e0"/>
+    <recordKeyType typeId="92956f16-73fa-421a-bde2-33eeadcd8f39" valueTypeId="df7c4c58-93ca-45ee-b789-4a02e9699bfc"/>
+    <recordType typeId="8a660123-1828-451f-8821-56bda1591812" valueTypeId="2f32fb6a-3f74-49b8-9699-1532450f0fcc"/>
+  </producedTypes>
+  <name>ОжидаемыеТовары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ожидаемые товары</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="73348ac3-6d1b-4766-92bf-dfce98728087">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ТипКоличество</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="b7c57cff-a5ad-4124-b4fe-04b8357add6e">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="19adc7d1-106d-4769-a56b-a61050bb3e4e">
+    <name>Заказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПоставщику</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

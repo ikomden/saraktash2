@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d8ee9c2-c87c-4120-93a5-d2d7c181ec7c">
+  <producedTypes>
+    <objectType typeId="cf3b549a-9c5c-438d-8286-7e6c0bdc7446" valueTypeId="4cb530f1-2864-4ae0-a4cb-012014180c63"/>
+    <refType typeId="63d6c19a-5ea5-4246-ab30-5046f24e29d4" valueTypeId="2dcdb73f-1ce2-4927-9433-17d6e121a9b4"/>
+    <selectionType typeId="8e954bd1-303a-4e84-9655-4554f31e5804" valueTypeId="5da50663-18ff-4b4d-84dc-5190ac5b5a4a"/>
+    <listType typeId="b52846e5-9343-45b8-9c30-a621f953c076" valueTypeId="c7ad3fd9-ce4c-4c4d-8559-5463fc7b41bd"/>
+    <managerType typeId="f1b44867-0918-4fc2-a842-d039e6c22558" valueTypeId="7ba3232d-669f-4bc8-971e-eb34d8997599"/>
+  </producedTypes>
+  <name>РезультатыПриемки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты приемки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РезультатыПриемки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="0b58e8c7-8129-47e6-968e-a2f7af773bc3">
+      <name>Брак</name>
+      <description>Брак</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="4776631e-82dc-49ef-8467-2bf61e073dce">
+      <name>Опт</name>
+      <description>Опт</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="08732bc0-1db7-4e0d-bf80-01f86cd1c1b0">
+      <name>Принято</name>
+      <description>Принято</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="838b61dc-292e-4556-83ae-dfb3bea9e26b">
+    <name>СкладПриемки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад приемки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

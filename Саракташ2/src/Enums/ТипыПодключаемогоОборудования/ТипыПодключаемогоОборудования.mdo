@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="99791275-d6ca-4aee-82ab-e8358b3f7d58">
+  <producedTypes>
+    <refType typeId="4a7e7657-3da1-4c1c-9f92-9fad8d67c9ce" valueTypeId="5f5d691a-5941-4fab-ba31-bdd45d9c2b58"/>
+    <listType typeId="663b66d1-e286-4501-a8cc-141aa8710048" valueTypeId="9caf4286-c627-453c-b9a5-b8f2bd36705d"/>
+    <managerType typeId="3d7f76ce-a2e2-44f9-8ef9-18ad3efb36c9" valueTypeId="fb568d98-74bb-47c7-a177-627798a6b269"/>
+  </producedTypes>
+  <name>ТипыПодключаемогоОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы подключаемого оборудования</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0797af6f-ec0d-45fb-aed5-65fbb283c8af">
+    <name>СканерШтрихкода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сканеры штрихкода</value>
+    </synonym>
+    <comment>Scanner</comment>
+  </enumValues>
+</mdclass:Enum>

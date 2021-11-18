@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9722f81e-458d-427d-86d3-499b984c7c75">
+  <producedTypes>
+    <objectType typeId="d1427b97-26cc-4064-b1e6-7b70405d009f" valueTypeId="6642fe08-dff4-4df8-84e0-843878b979e3"/>
+    <refType typeId="e2d5d867-ddc3-49e5-85d3-cb45dc4aed2d" valueTypeId="53ffd161-6380-4eaa-b936-7283759f480f"/>
+    <selectionType typeId="e84eb4a4-2545-4893-9c03-8dae37b2d672" valueTypeId="80812116-c93f-4705-8576-5b2cfdf9e524"/>
+    <listType typeId="2cad53f9-b07e-4b2a-9de1-d2fc040fb844" valueTypeId="819a70d3-6a5f-4e2f-ad6d-769288d8d9ac"/>
+    <managerType typeId="66f0681e-19c9-4e80-9d01-4c4db9a8373c" valueTypeId="3dda3677-d8c9-41f9-ba8d-71798a811fca"/>
+  </producedTypes>
+  <name>Склады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Склады, места хранения</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4e327baa-4d60-4e00-9308-0fc725435051">
+      <name>РынокСаракташ</name>
+      <description>Рынок Саракташ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+    <items id="463a3c9e-c6be-41a4-bbc9-f32ea0a9e1fd">
+      <name>Саракташ</name>
+      <description>Саракташ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Склады.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="a7084b15-7ff4-46fc-a0b0-15750624c1c5">
+    <name>ВыгружатьОстаткиСерийныхНомеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружать остатки серийных номеров</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="9fbf9b5a-689f-43ff-a153-7ec06c91411f">
+    <producedTypes>
+      <objectType typeId="3db88a84-9ba8-45e0-b049-07c73f5df3f9" valueTypeId="ee1d7be4-a764-4849-aad1-420204486de7"/>
+      <rowType typeId="1d399280-ca9b-4478-9e96-752f46b6fcf4" valueTypeId="da94821b-ff47-4097-ad58-133fa0a83177"/>
+    </producedTypes>
+    <name>КонтактнаяИнформация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контактная информация</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Контактная информация контрагента</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="9f270633-6d95-40f5-b16c-410047d57942">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ТипыКонтактнойИнформации</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Тип контактной информации (телефон, адрес и т.п.)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d036d5bc-4fce-4b91-bda4-5b90f7a59de2">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Представление контактной информации для отображения в формах</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="5b65c2f2-6486-4222-989b-64f2abbc24ed">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

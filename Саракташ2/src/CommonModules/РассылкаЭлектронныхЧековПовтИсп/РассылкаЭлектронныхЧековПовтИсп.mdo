@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da7ab7bd-02ac-46d1-94f0-510968719b29">
+  <name>РассылкаЭлектронныхЧековПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка электронных чеков повторное использование</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dff51024-b26a-415b-bda3-775a15fada8f">
+  <name>Производство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производство</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Мастерицы</content>
+  <content>Catalog.СерийныеНомера</content>
+  <content>InformationRegister.ДанныеСерийныхНомеров</content>
+  <content>Catalog.Бирки</content>
+  <content>CommonCommand.ПриемкиСаракташ</content>
+  <content>CommonCommand.ПеремещенияСПроизводства</content>
+</mdclass:Subsystem>

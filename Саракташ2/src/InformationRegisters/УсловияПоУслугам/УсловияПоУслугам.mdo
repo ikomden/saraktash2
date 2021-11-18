@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19f2821f-ed69-4978-928b-1fa660b282ed">
+  <producedTypes>
+    <selectionType typeId="58fb6151-608d-4e18-9df2-156324a696da" valueTypeId="1850bb3b-b070-4ea5-8bc8-19ea849e9eaf"/>
+    <listType typeId="ead52729-eb20-4aa4-b6f9-be6cb0f36c1b" valueTypeId="ac3a7aad-ca42-4617-8c47-04c8d5efc329"/>
+    <managerType typeId="e5c7ab78-2b99-4137-9e92-f308b843aaa9" valueTypeId="8e5134c1-0446-45fa-aa3b-976cf03c45c2"/>
+    <recordSetType typeId="8f427003-1a11-4772-9231-60ac93a8d7cb" valueTypeId="72fd73fb-a238-4c4c-9967-53e482fc4b72"/>
+    <recordKeyType typeId="e214132c-af4d-4b85-9d53-7a8a2fb6a55f" valueTypeId="9964cf0f-a422-4d67-883f-18e476438561"/>
+    <recordType typeId="c7bbf60e-a383-4ed0-8781-b861fbd006fd" valueTypeId="210154eb-4fa1-4849-bc2e-03ec2dd8ddc9"/>
+    <recordManagerType typeId="7ac3b302-efc1-4620-ad69-036566701a88" valueTypeId="8b08b89c-2dac-4290-9eaa-a5f9987352ca"/>
+  </producedTypes>
+  <name>УсловияПоУслугам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Условия затрат по услугам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.УсловияПоУслугам.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e0beff8d-d1b6-4603-bac1-1fc37a01ef04">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="17fe89eb-fb40-42a3-8e6b-e30103ac97ef">
+    <name>МинимальнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальная сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="10fffeb5-e7b4-4f86-85d2-8fac765d2d81">
+    <name>ЕжемесячаяПлата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежемесячая плата</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="eb6f68db-bd4c-4f7c-accf-ac2c369e5661">
+    <name>Услуга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуга</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МетодыОплаты</types>
+      <types>CatalogRef.СпособыДоставки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="32823a37-72e6-4e86-afba-a0086605e100">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

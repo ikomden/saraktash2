@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="59e93210-94cd-432a-b27c-a97252f1c0d4">
+  <producedTypes>
+    <managerType typeId="c70ab9e0-bfd7-43b0-878c-dc566ade20d9" valueTypeId="cfa5a045-5ade-4183-95e5-0925e8a7e6d1"/>
+    <valueManagerType typeId="246e84bc-c851-43ad-8cc9-e8cefc4353b5" valueTypeId="64fdee77-d894-4e2c-8126-2ee1fcbdc82c"/>
+    <valueKeyType typeId="36957247-4fc7-5303-9af3-298114e76e9c" valueTypeId="26e572ed-3651-5a19-a12b-6ed4cc7817b4"/>
+  </producedTypes>
+  <name>ПечатьФ7Индекс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать бланка Ф7. Индекс</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

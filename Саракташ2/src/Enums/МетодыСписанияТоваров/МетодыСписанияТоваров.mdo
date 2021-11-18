@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1d6fe29-8638-4fe6-9dc0-6fcbcf54ff6b">
+  <producedTypes>
+    <refType typeId="8f8368c6-1f99-405a-bb80-c86635857d4c" valueTypeId="de8dfb4f-bffd-42da-9464-607d2ae224e2"/>
+    <listType typeId="ecfedd43-18a6-45c8-9a33-1c2e8d894f92" valueTypeId="33c8fb36-2d75-4ee6-81e8-a092d5cf1d00"/>
+    <managerType typeId="8abb3249-4ffe-4d7c-b851-1d046a8dec08" valueTypeId="3bbd2a42-9ca4-45e2-8743-01121950788c"/>
+  </producedTypes>
+  <name>МетодыСписанияТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы списания товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bf448262-50b7-4249-ae68-d5f52abca107">
+    <name>ПоСредней</name>
+    <synonym>
+      <key>ru</key>
+      <value>По средней</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="41a3edec-8325-41df-b1d0-94e3a38297bc">
+    <name>ФИФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФИФО</value>
+    </synonym>
+    <comment>First input, first output (первым пришел, первым обработан)</comment>
+  </enumValues>
+  <enumValues uuid="5a2b0866-e897-4594-967a-400f8ef8fb70">
+    <name>ЛИФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЛИФО</value>
+    </synonym>
+    <comment>Last input, first output (последним пришел, первым обработан)</comment>
+  </enumValues>
+  <enumValues uuid="c3a18385-3bd3-4a23-bfa4-17f1ed2f0b74">
+    <name>ПоУказаннойСтоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>По указанной стоимости</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

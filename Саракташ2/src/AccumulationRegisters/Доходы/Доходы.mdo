@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ad467a2-053e-4136-a213-e58d1b6a27d2">
+  <producedTypes>
+    <selectionType typeId="617c9e2c-dd0d-4ebc-8027-050bcaa5cec2" valueTypeId="2b0468f5-7fe8-451c-8ad7-ca6e8abd8abe"/>
+    <listType typeId="8e22ca86-6158-4bb1-8db3-ee6f7e2aca68" valueTypeId="e309978b-600a-4fd8-b40e-94a25735f049"/>
+    <managerType typeId="468c4a4d-e736-4fd0-b339-965763306b6a" valueTypeId="31e21ffb-e1ee-402f-a92b-143fa655ab14"/>
+    <recordSetType typeId="7d84615e-e7e9-4b09-b00c-f02aee11a022" valueTypeId="51be915e-9d83-4406-9130-a56ee23eb007"/>
+    <recordKeyType typeId="85bb075d-6bc7-4ddb-93b5-eaf139890ea9" valueTypeId="e3867841-908b-4da3-aa1e-31a3598e7a55"/>
+    <recordType typeId="37e199dd-50f9-49f0-b865-6a68582d9a7a" valueTypeId="32f0b090-95f0-48a2-99d8-d6f4ed2d3f00"/>
+  </producedTypes>
+  <name>Доходы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доходы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="236e9745-3782-4251-aba4-3a43a0594a83">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ТипЦена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="60e8d41a-b9dd-40bc-83dc-608a03bdbebb">
+    <name>Статья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиДоходов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

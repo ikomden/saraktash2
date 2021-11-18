@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ccac7284-14bf-471d-b450-8bef32d0de01">
+  <producedTypes>
+    <objectType typeId="1376383a-fd5b-42e3-bfad-a2bf55eed5fc" valueTypeId="590e4d16-86a9-47ab-9f7c-deae7ca23c11"/>
+    <managerType typeId="78102ee7-b700-4790-99b2-e6326c9cc488" valueTypeId="56f51f2d-2e7e-4606-9c68-e9f0e8151c14"/>
+  </producedTypes>
+  <name>СпособыДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы доставки</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.СпособыДоставки.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="f67f0334-8b6c-4a95-a7eb-e1d41f329b17">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="2bc5151f-dc24-4d40-a0a4-b0fbe464ff7e">
+    <name>СпособыДоставкиРозничные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способы доставки (розничные)</value>
+    </synonym>
+    <group>ActionsPanelReports</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="a64977fd-951f-4e83-9652-e6245f866761">
+    <name>СпособыДоставкиОптовые</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способы доставки (оптовые)</value>
+    </synonym>
+    <group>ActionsPanelReports</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

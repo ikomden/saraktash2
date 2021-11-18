@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5dd372e-3aca-4104-96a0-ed6482b428e6">
+  <producedTypes>
+    <objectType typeId="ffc4f244-f632-436e-bfd8-c6bf6ca4312a" valueTypeId="cf10c677-65b5-4bbe-8b1e-85e153c22acc"/>
+    <managerType typeId="8a5a1eda-7616-439f-8dba-a910fb6891da" valueTypeId="fe12c404-f581-4712-9a5c-7ac251d56fc9"/>
+  </producedTypes>
+  <name>ВозвратыПоАртикулам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возвраты по артикулам (не исп.)</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ВозвратыПоАртикулам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="69662b00-42e8-4855-8dfa-38f9dc3b6cc9">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

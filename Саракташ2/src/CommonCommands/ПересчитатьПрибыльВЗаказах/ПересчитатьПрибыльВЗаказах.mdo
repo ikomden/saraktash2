@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba71f3d5-059a-4ec5-9ea4-5a8ea277f132">
+  <name>ПересчитатьПрибыльВЗаказах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пересчитать прибыль в заказах</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

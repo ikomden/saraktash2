@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3c73fd3-2a8b-44ce-9ad4-fad4f2bffc58">
+  <producedTypes>
+    <objectType typeId="d886ed5a-d4e0-4ec6-b7eb-0501a016452f" valueTypeId="f575ba2a-dea8-4d1a-9f02-5f5627e27d6f"/>
+    <managerType typeId="a1d3bba6-a51b-4b12-b186-c0cfdb66bd8e" valueTypeId="f4e4157c-d7e1-4bac-87e2-572ccaa8e6fa"/>
+  </producedTypes>
+  <name>ПерезаполнитьПрибыльВЗаказах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перезаполнить прибыль в заказах</value>
+  </synonym>
+  <defaultForm>DataProcessor.ПерезаполнитьПрибыльВЗаказах.Form.Форма</defaultForm>
+  <forms uuid="8d4dcf5c-4c80-4087-aa42-fcdf307abcdd">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

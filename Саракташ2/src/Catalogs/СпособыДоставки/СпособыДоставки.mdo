@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9634ce7-b297-48e2-885c-ed2584a13af9">
+  <producedTypes>
+    <objectType typeId="87e18768-7391-4056-b09a-3e9b44a5bccc" valueTypeId="5ed13038-a4ea-4c44-8d35-07e6d1b87734"/>
+    <refType typeId="fcc0b218-619f-4ff3-8cee-0043363d3b4d" valueTypeId="23ad0790-7899-42c0-99ae-590493435bc6"/>
+    <selectionType typeId="229c6bed-527e-484c-9842-5213db42c542" valueTypeId="3ecd8823-5aad-49fb-a2ef-239925263124"/>
+    <listType typeId="c07253f3-4d1f-4dea-9c56-83c8855a731e" valueTypeId="004fd84c-4220-4bc7-b8d8-abf79bae2fef"/>
+    <managerType typeId="5f896f57-9db6-43bc-907d-44d8bea05ad7" valueTypeId="4b22a7b6-a7a6-4511-a76c-7680701529dd"/>
+  </producedTypes>
+  <name>СпособыДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы доставки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СпособыДоставки.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СпособыДоставки.Form.ФормаЭлемента</defaultObjectForm>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <attributes uuid="d7197620-4bfc-4f93-bc3a-72f112897d25">
+    <name>IDНаСайте</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID на сайте</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9df737bd-661d-40d0-9dd5-72ae295b7974">
+    <name>СборКурьерки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сбор курьерки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4ba84f8b-84e5-4819-a978-7bc8f4d58290">
+    <name>ВыделятьЦветом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выделять цветом</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d58ae247-bd54-46ed-8511-76dbb4476d25">
+    <name>СборПочты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сбор почты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7870d59a-ef3f-4172-9166-f4d663fc6504">
+    <name>DPD</name>
+    <synonym>
+      <key>ru</key>
+      <value>DPD</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="56259ad5-e675-4249-8933-8c71915d8f0b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1d2c51c1-92f4-457e-b06c-1981c3af44a8">
+    <name>ВводНовойСтоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод новой стоимости</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+</mdclass:Catalog>

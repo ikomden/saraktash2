@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1df9bc9c-6665-4a91-a9af-f9ab0c58aed0">
+  <name>ЗаполнениеПолей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнение полей</value>
+  </synonym>
+  <source>
+    <types>DocumentObject</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.СлужебныйСервер.ЗаполнениеПолейПередЗаписью</handler>
+</mdclass:EventSubscription>

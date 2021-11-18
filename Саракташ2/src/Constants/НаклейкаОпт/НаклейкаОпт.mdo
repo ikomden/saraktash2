@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae62164d-b46a-4b95-bd97-0b263f85e0e6">
+  <producedTypes>
+    <managerType typeId="039d5721-bb97-4f5c-8739-c22e03121b52" valueTypeId="c2a1e31b-382a-41f1-827d-4efeef3cf436"/>
+    <valueManagerType typeId="8857e766-1a2f-47b4-b017-f8b3df5e2158" valueTypeId="79cecd69-c106-4ecf-916c-6f70e84c8758"/>
+    <valueKeyType typeId="c6516706-bc35-50f5-9136-04bca1af1f54" valueTypeId="219adf57-438c-5356-ae38-bd367b26d4a6"/>
+  </producedTypes>
+  <name>НаклейкаОпт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наклейка опт</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

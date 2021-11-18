@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a87e2377-1e25-4c99-be58-81341646b72d">
+  <name>НормативноСправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники и настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.События</content>
+  <content>ExchangePlan.ОбменССайтом</content>
+  <subsystems>Справочники</subsystems>
+  <subsystems>Настройки</subsystems>
+</mdclass:Subsystem>

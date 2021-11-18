@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc55a1c7-3bf2-46c9-a1ac-9a8edd03b2d1">
+  <producedTypes>
+    <managerType typeId="d649ee43-46db-4dfb-8d00-3a8d6416ec26" valueTypeId="b2f75f84-b7bf-467d-83a7-2d216c89f42e"/>
+    <valueManagerType typeId="4d77ecbe-d91a-4be5-bbf3-b238ff88c4a2" valueTypeId="b8537a30-ec09-4780-bacb-e907483c12f6"/>
+    <valueKeyType typeId="1b164f3b-a2f7-5b7c-8add-1f862462310a" valueTypeId="0edb2e19-11ae-5e7c-a6fb-b68bb95a622b"/>
+  </producedTypes>
+  <name>ТекстДляПечатиЗаказовВерх</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текст для печати заказов верх</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers/>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

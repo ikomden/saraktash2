@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35912ec7-4221-44bb-b0ca-78820c37d5ee">
+  <producedTypes>
+    <selectionType typeId="71877688-f215-4643-ac37-97d312a29480" valueTypeId="0ae17569-236c-41e4-870e-d98d7cb7f17d"/>
+    <listType typeId="2fd4ddd1-200e-4888-9a07-58a8f792bede" valueTypeId="43251b09-ef95-42da-9ba0-0e744eeb7280"/>
+    <managerType typeId="dee3823e-6b61-4d59-97cb-8cc78d5b2eec" valueTypeId="f34f64d7-5487-45d9-af74-7504bebca6ed"/>
+    <recordSetType typeId="91721671-0ace-4b80-8f07-100707cf18bc" valueTypeId="6117984e-6f61-464c-9073-da06ed818d72"/>
+    <recordKeyType typeId="766e8fc6-ae32-47ec-a07f-969ba864bbea" valueTypeId="35a5411e-744b-4cbc-8eda-72b58a2f8a8a"/>
+    <recordType typeId="7e90a073-cb98-45fb-8fad-8c488ef9d014" valueTypeId="c104a887-e22b-4cc2-af85-531f02c9d2f7"/>
+    <recordManagerType typeId="48353593-bb1f-4b25-a309-b54b697db5c8" valueTypeId="3fe0a86d-3f11-4a5a-b9f5-ec2ea468f0b8"/>
+  </producedTypes>
+  <name>ПринятыеСообщенияССайта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Принятые сообщения с сайта</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ПринятыеСообщенияССайта.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0d594402-439e-4c0b-8db6-08d9dabc52e2">
+    <name>ТекстСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст сообщения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <forms uuid="b227b521-f7c3-4689-b2ce-5ba24cf2569b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

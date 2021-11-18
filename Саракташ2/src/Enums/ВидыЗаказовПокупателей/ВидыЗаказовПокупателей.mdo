@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4eeddbe-3746-4a39-91ac-4f32cf06d877">
+  <producedTypes>
+    <refType typeId="a56f2b33-5544-48fd-bf8c-ec777ff1cbba" valueTypeId="7ecbdf37-5de9-4649-8003-1879d143bd85"/>
+    <listType typeId="1f256930-3f1f-4afb-a05d-43406e51086c" valueTypeId="3d87c311-415a-4057-9c13-3255ab62a951"/>
+    <managerType typeId="41b36b95-bc30-4e25-a52c-5bf7836be0b0" valueTypeId="7d6f56f0-956b-4733-bdf1-57c0c82106de"/>
+  </producedTypes>
+  <name>ВидыЗаказовПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды заказов покупателей</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="51199290-e5a5-44a8-9cdc-d3bc0addc806">
+    <name>Розничный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Розничный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="963e0d86-9b59-4eea-ac0b-0a6b24608d40">
+    <name>Оптовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оптовый</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

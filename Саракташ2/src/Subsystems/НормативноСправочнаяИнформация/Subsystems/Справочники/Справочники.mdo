@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63978b33-adf5-48cd-897c-c37a992929e4">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.ВидыЦен</content>
+  <content>Catalog.ЕдиницыИзмерения</content>
+  <content>Catalog.КатегорииТоваров</content>
+  <content>Catalog.Склады</content>
+  <content>Catalog.СтатусыЗаказов</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.СпособыДоставки</content>
+  <content>ChartOfCharacteristicTypes.ДополнительныеРеквизиты</content>
+  <content>Catalog.МетодыОплаты</content>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Должности</content>
+  <content>Catalog.КлассификаторБанковРФ</content>
+  <content>InformationRegister.УсловияПоУслугам</content>
+  <content>Catalog.КатегорииПоРазмеру</content>
+  <content>Catalog.КатегорииПоЦене</content>
+  <content>Catalog.РезультатыПриемки</content>
+  <content>Catalog.НедочетыПриПриемке</content>
+  <parentSubsystem>Subsystem.НормативноСправочнаяИнформация</parentSubsystem>
+</mdclass:Subsystem>

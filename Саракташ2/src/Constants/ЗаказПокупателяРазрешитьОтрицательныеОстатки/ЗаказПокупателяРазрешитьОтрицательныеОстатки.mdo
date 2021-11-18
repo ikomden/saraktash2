@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bbc45bea-33a1-4d6b-86f1-cf22856e3504">
+  <producedTypes>
+    <managerType typeId="235e0ee8-978e-4a17-ab82-592df63003c6" valueTypeId="0bfa4116-df17-40b0-9734-651c82b5a859"/>
+    <valueManagerType typeId="e216db92-37a4-4607-beb5-3bec34fc8eb8" valueTypeId="47e1d202-6267-472a-ad3c-bbe9f8e0c7d1"/>
+    <valueKeyType typeId="51d25117-c61e-5e92-8a29-c61c35b3ccc8" valueTypeId="5e8c5ab8-cff4-5278-9527-b4df15c0e96f"/>
+  </producedTypes>
+  <name>ЗаказПокупателяРазрешитьОтрицательныеОстатки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ покупателя. Разрешить отрицательные остатки</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

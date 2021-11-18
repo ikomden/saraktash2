@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>0:91050f3b-9d20-42a0-b82f-1fd16b364e26</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <subsystemsOrder>
+    <subsystems>Subsystem.НормативноСправочнаяИнформация.Subsystem.Настройки</subsystems>
+    <subsystems>Subsystem.НормативноСправочнаяИнформация.Subsystem.Справочники</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee6efdb2-7f00-44d9-8507-25a9f9f0bb3c">
+  <producedTypes>
+    <refType typeId="38c8b9ce-af4b-4065-a2f4-635404d2f70b" valueTypeId="5ace9316-a560-4ef3-8c20-0cd678a465e5"/>
+    <listType typeId="91bb5dba-ed06-434f-bcd8-19f752ca0054" valueTypeId="54b0be7a-0a05-4362-906a-92cc07d35aa1"/>
+    <managerType typeId="77c9bc62-591c-4391-9d22-36ffe29eedb8" valueTypeId="04209f62-ab2c-4d7d-89b4-1095deed4fa3"/>
+  </producedTypes>
+  <name>ОптРазрезыНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Опт разрезы номенклатуры</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8d776923-f466-4cae-87f1-1da99767a00e">
+    <name>ТипВязки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип вязки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23fe807e-1582-4b33-981b-4412a86dd84a">
+    <name>Цвет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цвет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff0bc706-b8c7-463e-b44f-46fbc3e65cb5">
+    <name>Размер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

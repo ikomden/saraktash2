@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5ffa5ec-3890-4d68-b1a8-f4c14c635645">
+  <producedTypes>
+    <objectType typeId="99659e61-6fb0-4f09-8481-b30c050b49d4" valueTypeId="e0eb5242-6079-498f-a8ce-c8b6c5b566c3"/>
+    <managerType typeId="f8fd98d7-438d-4774-b488-5ea740890bea" valueTypeId="c45120fc-9885-4bde-9d14-62f6ba07cccb"/>
+  </producedTypes>
+  <name>КонсольЗапросов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль запросов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонсольЗапросов.Form.Форма</defaultForm>
+  <auxiliaryForm>DataProcessor.КонсольЗапросов.Form.ФормаУпр</auxiliaryForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="3af24612-9fd7-4f98-ab65-074c7c35f772">
+    <name>ИспользоватьАвтосохранение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать автосохранение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="936feeb9-4e6d-4db0-9784-252aa97f470b">
+    <name>ИнтервалАвтосохранения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал автосохранения (с)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="10401311-1382-4a3b-bbb0-03ba50561d4a">
+    <name>ИспользоватьТолькоВыделеннуюОбласть</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать только выделенную область</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f5eaa4b7-aa18-4ac9-82ca-6aed6c68b9fe">
+    <name>ЕдиныеПараметрыДляВсехЗапрсов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единые параметры для всех запрсов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="75dc2b85-9ca4-4878-b00c-a19f6fd3b94a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fdde34ce-b8d3-44c4-9ed7-bb7a99a4fe49">
+    <name>ФормаПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма параметров</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8dc1d63b-4eee-4cb8-97da-b143aaa13a52">
+    <name>ФормаВложеннойТаблицы</name>
+    <synonym>
+      <key>ru_RU</key>
+      <value>Форма вложенной таблицы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ff7e14b4-831e-42a0-aede-8b68c40dea42">
+    <name>ФормаВыбораСтрокиДереваЗапросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора строки дерева запросов</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c521d391-7952-49c0-bf4f-3256ba0d1b88">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d08460af-bc47-4747-9e69-1119881399d1">
+    <name>ФормаКодаЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма кода запроса</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="69781844-6c5a-475d-b359-d823ac84b00e">
+    <name>Форма1УпрСтарая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма1 упр старая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b07547d6-6c43-4a7e-ab97-31d947555956">
+    <name>ФормаВложеннойТаблицы1УпрСтарая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма вложенной таблицы1 упр старая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3c26eef2-6a79-4954-80db-0b464dd67d4b">
+    <name>ФормаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f020fc9f-9495-4593-9662-8393850499c2">
+    <name>ФормаПараметровУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма параметров упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2545a017-8a3a-4e21-92ab-49532fad2f3d">
+    <name>ФормаРезультатаПакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма результата пакета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7ced6837-e192-4439-8d84-6051b1dbcc1a">
+    <name>ФормаВыбораПараметровЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора параметров запроса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1f79fd2d-2316-4c59-b781-9b7e3e67d390">
+    <name>МакетРезультата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет результата</value>
+    </synonym>
+  </templates>
+  <templates uuid="3842dc02-69f2-4872-a031-0a78bfadcce8">
+    <name>КартинкаВставитьОператорыЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка &quot;Вставить операторы запроса&quot;</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="50606500-e2e2-4483-a3cc-2560e6713cf0">
+    <name>КартинкаДобавитьПеренос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка &quot;Добавить перенос&quot;</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="e36fc43c-9c6b-4b28-bff5-12d456b33748">
+    <name>КартинкаУбратьПеренос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка &quot;Убрать перенос&quot;</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="0552a0e1-6c4f-4a0b-a78d-17374c03391c">
+    <name>КартинкаУстановитьПараметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка &quot;Установить параметры&quot;</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="bf84ed14-6631-4587-9a32-ca045c62d529">
+    <name>КартинкаОтправитьОтзывПредложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Картинка &quot;Отправить отзыв / предложение&quot;</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+</mdclass:DataProcessor>

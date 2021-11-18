@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec6c665f-6421-441d-a2c6-6aa1de26223e">
+  <producedTypes>
+    <containerType typeId="ee73bcc0-417b-4554-a202-fea18095c128" valueTypeId="51a2e37e-7478-4fd2-bff4-8dfc4342a564"/>
+  </producedTypes>
+  <name>ТипЦена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цена/Сумма</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>2</scale>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

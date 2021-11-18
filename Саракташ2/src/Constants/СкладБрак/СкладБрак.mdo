@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a571e3e7-0a69-434b-8b71-00b07655b776">
+  <producedTypes>
+    <managerType typeId="78f86bd4-3d90-4162-883a-dfcc9640eff7" valueTypeId="51e7ca72-2bfd-42e7-b9e6-3f2228f83a9d"/>
+    <valueManagerType typeId="b1fb4a8c-68ac-40e2-8bfd-e730cadf4a24" valueTypeId="e513fb3e-3ff3-4137-afbc-36522359c4d8"/>
+    <valueKeyType typeId="8cfc0ee7-77e4-479d-8bee-8ccdf0dc0603" valueTypeId="0ed5234a-e702-4fbb-a9ac-d39e52158b53"/>
+  </producedTypes>
+  <name>СкладБрак</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склад брака</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Склады</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

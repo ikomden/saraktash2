@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="179619f3-0d02-451e-9198-465ba3d7f797">
+  <producedTypes>
+    <objectType typeId="92284f51-df0a-47f9-b18c-433730150ede" valueTypeId="7caa9b08-aa53-4521-b105-72cc2945c479"/>
+    <managerType typeId="20ed6323-2f1f-4a02-b424-d4e8cf3fe5fb" valueTypeId="aa43ed67-0c61-4ca1-8bcb-d7b17a3dc682"/>
+  </producedTypes>
+  <name>ПрибыльСЗаказа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прибыль с заказа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПрибыльСЗаказа.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="6f31373e-8648-4539-b2d0-d16cfc8105fd">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="e17c8e6e-2c15-4374-b284-b2cd0e78d521">
+    <name>ОсновнаяСхемаКомпоновкиДанных_bk</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных bk</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

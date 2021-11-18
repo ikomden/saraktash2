@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c565f329-6ae6-42c7-8d13-4742a88ec5b9">
+  <producedTypes>
+    <objectType typeId="c99d66c9-942b-42f6-acf0-77ae2c918cc0" valueTypeId="60bb3d9e-a9c4-4d75-bfe8-e76e5df96b59"/>
+    <refType typeId="da3b6b27-e976-4925-aec0-56f8cc2eb120" valueTypeId="c27b9ec4-b8ce-402f-af5f-a186a6f9a287"/>
+    <selectionType typeId="d6f76461-e069-495d-8340-214a4821c509" valueTypeId="6b930a9d-4f1f-4c84-be8e-c6f09cf7c39f"/>
+    <listType typeId="6f3c2406-180e-4d31-b3d0-ffac0d681c38" valueTypeId="ec4ed466-7786-4c9a-a2cf-08e4ced2d720"/>
+    <managerType typeId="2ee4c300-6d18-421e-b08b-221d737ef3cc" valueTypeId="51c5e9c2-8098-414b-8405-869872b14b6e"/>
+  </producedTypes>
+  <name>УстановкаСкидок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка скидок</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.УстановкаСкидок.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="c4b0fc17-a48e-4592-9451-3732600468bf">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f7cccf99-b2aa-498f-8dee-20fd55cb7f43">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

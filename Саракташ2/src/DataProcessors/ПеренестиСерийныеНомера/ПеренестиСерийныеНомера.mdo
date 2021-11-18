@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0770fc32-bdc6-490a-a88a-21055916effd">
+  <producedTypes>
+    <objectType typeId="24e659a1-2df6-4db8-a5de-e670b03db5c9" valueTypeId="742357b3-e03b-48bc-9342-e2fa2f3d6183"/>
+    <managerType typeId="2632df94-5691-44ee-889d-93cfd7feb2fc" valueTypeId="1af5930a-b7e4-4960-9a2b-5b40715d7e15"/>
+  </producedTypes>
+  <name>ПеренестиСерийныеНомера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенести серийные номера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПеренестиСерийныеНомера.Form.Форма</defaultForm>
+  <forms uuid="cf052ddf-8318-4f43-ab17-cffedf58ac61">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

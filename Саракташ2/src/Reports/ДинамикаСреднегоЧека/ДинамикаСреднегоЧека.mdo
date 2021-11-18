@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8e77394a-7a78-4a44-a96f-6e86e4cbee94">
+  <producedTypes>
+    <objectType typeId="356bf3d9-5545-4024-a1f4-dafdd8317aaa" valueTypeId="501e78dd-3b1f-4237-8f31-1f05b809c16d"/>
+    <managerType typeId="2fa11da6-4621-4e22-9461-868ab7f57c71" valueTypeId="9da64a46-e18a-4cb3-9217-3c454cf45843"/>
+  </producedTypes>
+  <name>ДинамикаСреднегоЧека</name>
+  <synonym>
+    <key>ru</key>
+    <value>Динамика среднего чека</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ДинамикаСреднегоЧека.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="e43f41f6-8c27-4348-b7e3-91100445767a">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

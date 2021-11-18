@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6a8c0697-c0cf-4fad-9af5-8a7b56cb369f">
+  <producedTypes>
+    <selectionType typeId="c4f9d853-2c11-4a89-9e7d-1613b8fa2a84" valueTypeId="891777d7-23a1-4741-9e3e-8f66b093dbe4"/>
+    <listType typeId="0f9092ab-3a25-40fc-9287-3834fa2b8e0a" valueTypeId="6a54e263-adc0-451a-8e68-c4f003f96b9d"/>
+    <managerType typeId="0845561d-153e-4a85-a6b7-86a1f04002fc" valueTypeId="b90ecbac-92f4-47d7-a20c-9e6641df879d"/>
+    <recordSetType typeId="fde1a44a-fb98-4777-9111-e8c5cb4ba803" valueTypeId="8f64d8cf-06b5-4af6-81e0-4e91b06b0a3f"/>
+    <recordKeyType typeId="e09b6096-d76b-4523-a052-db8c1a0bed5f" valueTypeId="51e26f6a-2b6d-427d-a394-0f1a5e1dca9e"/>
+    <recordType typeId="43df2b22-db7d-4034-ab30-f199142d0010" valueTypeId="0f313b48-af18-4f68-819b-113c534f058b"/>
+    <recordManagerType typeId="e2a1adcf-950f-49ac-9918-f0284d205764" valueTypeId="8824471b-5973-43f4-bd43-83ff7794757c"/>
+  </producedTypes>
+  <name>События</name>
+  <synonym>
+    <key>ru</key>
+    <value>События</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.События.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="a527570e-007a-44f0-84c0-83f52a2480d3">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="3af48f04-9915-4f5f-8aba-3298491ddb32">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="166651da-8727-4bb8-aede-4da630d34bc6">
+    <name>Дескриминант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дескриминант</value>
+    </synonym>
+    <comment>Разделение событий, происходящих в одну и те же секунду</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f918f79b-eda8-48c8-af9f-3fad4cfa04bf">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

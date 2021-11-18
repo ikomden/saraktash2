@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94eeb23f-fab1-409b-9f46-f7f21cda5d68">
+  <producedTypes>
+    <objectType typeId="17b4775e-3efb-4265-8a10-79b4c7f38f43" valueTypeId="c257094f-8cd5-406d-9c54-63e2844f550b"/>
+    <refType typeId="1fee401e-80e3-42a0-a811-596078ae75aa" valueTypeId="14830061-1752-4c68-ae67-1034fae1b8ed"/>
+    <selectionType typeId="f3ad45be-dac9-45c3-8bd4-0f570886f83e" valueTypeId="077ba84f-23de-48b9-838d-04807142febe"/>
+    <listType typeId="6619fa0a-ac42-4792-b2ea-c5ce960e027c" valueTypeId="c381c669-62f6-4478-9373-8dd78599698a"/>
+    <managerType typeId="a1c7154f-75ac-4190-9bf7-5b77e2e9e171" valueTypeId="afd3bc0c-3a1c-46e1-beb7-d38e631e0251"/>
+  </producedTypes>
+  <name>КатегорииТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КатегорииТоваров.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КатегорииТоваров.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4dea150a-f466-4a9a-a1c4-635c9accfdd7">
+    <name>IDНаСайте</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID на сайте</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>11</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

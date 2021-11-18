@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FilterCriterion xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97f52df7-afa9-42b9-a5cf-2e40320b351f">
+  <producedTypes>
+    <listType typeId="11c53d14-61c2-4a85-8706-85f45e9eb773" valueTypeId="bf799ddf-a7e5-47ec-ba52-6e8c06b27a7f"/>
+    <managerType typeId="e6911d8f-8b6e-4af3-b665-e80884ee9462" valueTypeId="4fce9b47-1b66-44a3-917f-70d5b32e8b4b"/>
+  </producedTypes>
+  <name>ЗаказыПоНоменклатуре</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказы по номенклатуре</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Номенклатура</types>
+  </type>
+  <content>Document.ЗаказПокупателя.TabularSection.Товары.Attribute.Номенклатура</content>
+</mdclass:FilterCriterion>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c1b3c27-b2b2-4c7f-a925-b3cef4db0d22">
+  <producedTypes>
+    <selectionType typeId="0da7d8fe-ce61-423c-b0a8-9e3b0c9cdbb9" valueTypeId="e6f49754-43d5-48d7-b396-7408f2bad07a"/>
+    <listType typeId="a7a566dd-f976-41b1-8fc9-5a42b1ba45b1" valueTypeId="591c6b48-2f05-4b05-9fb1-48abf41e1dc5"/>
+    <managerType typeId="ab4bb1ed-68a5-4bcd-893e-faaf3ed82bf3" valueTypeId="87429e32-3a23-437b-bc23-10e57c64a65f"/>
+    <recordSetType typeId="a0954c7c-8127-42f5-b971-3d1553dbe555" valueTypeId="7254fca6-d437-43ef-87ae-250436df86df"/>
+    <recordKeyType typeId="a45ae642-ebb5-4836-a74a-b23598256cc4" valueTypeId="5f0dff36-eba8-46a0-984d-b70b5ce18675"/>
+    <recordType typeId="8a581a14-91b0-4a6a-8ed7-c46443c77143" valueTypeId="04730a78-a7af-4f18-a5df-468e62e03ba5"/>
+    <recordManagerType typeId="24d913bf-4f48-4e83-94b3-41a9580bb8d6" valueTypeId="82dec504-a00b-4370-a62f-33dadac58705"/>
+  </producedTypes>
+  <name>ПолитикаСписанияТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Политика списания товаров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПолитикаСписанияТоваров.Form.ФормаЗаписи</defaultRecordForm>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b07f9df3-00d6-40b6-9bac-d0e9e581bae0">
+    <name>МетодСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод списания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МетодыСписанияТоваров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="f843a4b0-31c3-41ab-9c81-22a118e8fba1">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b89bdbf6-34d1-4a69-9b2d-cc778b45be9b">
+    <name>ДатаУстановки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата установки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="4edd86a9-fd11-4603-8556-5a2208632f43">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

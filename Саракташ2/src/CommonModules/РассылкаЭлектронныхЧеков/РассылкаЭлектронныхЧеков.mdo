@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b7fc28ab-1b5d-477b-b538-d128f260f102">
+  <name>РассылкаЭлектронныхЧеков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка электронных чеков</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
